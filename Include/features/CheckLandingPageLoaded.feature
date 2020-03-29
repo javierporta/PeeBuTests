@@ -11,11 +11,11 @@ Feature: Check landing page is loaded
   Scenario Outline: Check elements are present
     Given I have the browser open
     When I navigate to the URL
-    Then I verify that the element <elementId> is present
+    Then I verify that the element <objectId> is present
 
     Examples: 
-      | elementId            |
-      | headerId             |
-      | gridId               |
-      | displayChartButtonId |
-      | chartId              |
+      | objectId                                                  |
+      | Object Repository/Page_PeeBu/h1_Home                      |
+      | Object Repository/Page_PeeBu/h2_Transactions              |
+      | Object Repository/Page_PeeBu/button_Show Chart            |
+      | Object Repository/Page_PeeBu/footer_Polythecnic Of Leiria |
