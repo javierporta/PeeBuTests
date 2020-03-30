@@ -1,0 +1,273 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Check title of the page is present",
+        "description": "",
+        "id": "check-landing-page-is-loaded;check-title-of-the-page-is-present",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8164391700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have the browser open",
+            "match": {
+              "location": "CheckLandingPageLoadedStepDef.i_have_the_browser_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1283955000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to the URL",
+            "match": {
+              "location": "CheckLandingPageLoadedStepDef.i_navigate_to_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 661262200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify that the header \"PeeBu\" is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PeeBu\"",
+                  "offset": 25
+                }
+              ],
+              "location": "CheckLandingPageLoadedStepDef.i_verify_that_the_header_is_present(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Check elements are present",
+        "description": "",
+        "id": "check-landing-page-is-loaded;check-elements-are-present;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9596770800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I have the browser open",
+            "match": {
+              "location": "CheckLandingPageLoadedStepDef.i_have_the_browser_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1885186000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I navigate to the URL",
+            "match": {
+              "location": "CheckLandingPageLoadedStepDef.i_navigate_to_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5340246400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify that the element Object Repository/Page_PeeBu/h1_Home is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Object Repository/Page_PeeBu/h1_Home",
+                  "offset": 26
+                }
+              ],
+              "location": "CheckLandingPageLoadedStepDef.i_verify_that_the_element_headerId_is_present(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Check elements are present",
+        "description": "",
+        "id": "check-landing-page-is-loaded;check-elements-are-present;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7110841400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I have the browser open",
+            "match": {
+              "location": "CheckLandingPageLoadedStepDef.i_have_the_browser_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1348170100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I navigate to the URL",
+            "match": {
+              "location": "CheckLandingPageLoadedStepDef.i_navigate_to_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2539479000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify that the element Object Repository/Page_PeeBu/h2_Transactions is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Object Repository/Page_PeeBu/h2_Transactions",
+                  "offset": 26
+                }
+              ],
+              "location": "CheckLandingPageLoadedStepDef.i_verify_that_the_element_headerId_is_present(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Check elements are present",
+        "description": "",
+        "id": "check-landing-page-is-loaded;check-elements-are-present;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4876307200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I have the browser open",
+            "match": {
+              "location": "CheckLandingPageLoadedStepDef.i_have_the_browser_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1216387100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I navigate to the URL",
+            "match": {
+              "location": "CheckLandingPageLoadedStepDef.i_navigate_to_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2275703400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify that the element Object Repository/Page_PeeBu/button_Show Chart is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Object Repository/Page_PeeBu/button_Show Chart",
+                  "offset": 26
+                }
+              ],
+              "location": "CheckLandingPageLoadedStepDef.i_verify_that_the_element_headerId_is_present(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Check elements are present",
+        "description": "",
+        "id": "check-landing-page-is-loaded;check-elements-are-present;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4819457700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I have the browser open",
+            "match": {
+              "location": "CheckLandingPageLoadedStepDef.i_have_the_browser_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1375203900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I navigate to the URL",
+            "match": {
+              "location": "CheckLandingPageLoadedStepDef.i_navigate_to_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2383742600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify that the element Object Repository/Page_PeeBu/footer_Polythecnic Of Leiria is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Object Repository/Page_PeeBu/footer_Polythecnic Of Leiria",
+                  "offset": 26
+                }
+              ],
+              "location": "CheckLandingPageLoadedStepDef.i_verify_that_the_element_headerId_is_present(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check landing page is loaded",
+    "description": "  As a user \n  I want to navigate to {insertMyWebURL}\n  So that I can see the landing page",
+    "id": "check-landing-page-is-loaded",
+    "keyword": "Feature",
+    "uri": "C:/Users/javie/Katalon Studio/PeeBuTests/Include/features/CheckLandingPageLoaded.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LandingPageTestSuite" time="60.933" tests="1" failures="0" errors="0">
+   <testsuite name="LandingPageTestSuite" tests="1" failures="0" errors="0" time="60.933" timestamp="2020-03-29 15:55:03" hostname="javie - DESKTOP-GVM9QB9" id="Test Suites/LandingPageTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\javie\\Documents\\Leiria\\Semester 2\\Software Quality\\Project\\GitHub\\PeeBuTests\\Reports\\20200329_155450\\LandingPageTestSuite\\20200329_155451"/>
+         <property name="logFiles" value="C:\\Users\\javie\\Documents\\Leiria\\Semester 2\\Software Quality\\Project\\GitHub\\PeeBuTests\\Reports\\20200329_155450\\LandingPageTestSuite\\20200329_155451\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="javie - DESKTOP-GVM9QB9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 74.0"/>
+         <property name="hostAddress" value="192.168.44.1"/>
+         <property name="sessionId" value="5a38b2d9-93e4-4d65-a13f-6f57f96047af"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RunCheckLandingPageLoadedFeature" time="60.137" classname="Test Cases/RunCheckLandingPageLoadedFeature" status="PASSED">
+         <system-out><![CDATA[2020-03-29 15:55:03 - [TEST_CASE][PASSED] - Test Cases/RunCheckLandingPageLoadedFeature: Test Cases/RunCheckLandingPageLoadedFeature
+
+2020-03-29 15:55:04 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/CheckLandingPageLoaded.feature"): Feature file: 'Include/features/CheckLandingPageLoaded.feature' was passed
+
+2020-03-29 15:55:05 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/CheckLandingPageLoaded.feature' and extract report to folder: 'C:\Users\javie\Documents\Leiria\Semester 2\Software Quality\Project\GitHub\PeeBuTests\Reports\20200329_155450\LandingPageTestSuite\20200329_155451/cucumber_report/1585493705001'...
+
+2020-03-29 15:55:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check title of the page is present: SCENARIO Check title of the page is present
+
+2020-03-29 15:55:07 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-03-29 15:55:07 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-03-29 15:55:08 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-29 15:55:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-29 15:55:17 - [MESSAGE][PASSED] - I have the browser open
+
+2020-03-29 15:55:17 - [TEST_STEP][PASSED] - I navigate to the URL: I navigate to the URL
+
+2020-03-29 15:55:19 - [MESSAGE][PASSED] - Navigate to 'http://localhost:4200/' successfully
+
+2020-03-29 15:55:19 - [MESSAGE][PASSED] - I navigate to the URL
+
+2020-03-29 15:55:19 - [TEST_STEP][PASSED] - I verify that the header "PeeBu" is present: I verify that the header "PeeBu" is present
+
+2020-03-29 15:55:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PeeBu/span_Welcome to PeeBu' are matched.
+
+2020-03-29 15:55:22 - [MESSAGE][PASSED] - I verify that the header "PeeBu" is present
+
+2020-03-29 15:55:22 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check elements are present: SCENARIO Check elements are present
+
+2020-03-29 15:55:22 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-03-29 15:55:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-29 15:55:25 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-03-29 15:55:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-29 15:55:31 - [MESSAGE][PASSED] - I have the browser open
+
+2020-03-29 15:55:31 - [TEST_STEP][PASSED] - I navigate to the URL: I navigate to the URL
+
+2020-03-29 15:55:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:4200/' successfully
+
+2020-03-29 15:55:33 - [MESSAGE][PASSED] - I navigate to the URL
+
+2020-03-29 15:55:33 - [TEST_STEP][PASSED] - I verify that the element Object Repository/Page_PeeBu/h1_Home is present: I verify that the element Object Repository/Page_PeeBu/h1_Home is present
+
+2020-03-29 15:55:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-29 15:55:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/h1_Home' is present
+
+2020-03-29 15:55:35 - [MESSAGE][PASSED] - Browser is closed
+
+2020-03-29 15:55:35 - [MESSAGE][PASSED] - I verify that the element Object Repository/Page_PeeBu/h1_Home is present
+
+2020-03-29 15:55:35 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check elements are present: SCENARIO Check elements are present
+
+2020-03-29 15:55:35 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-03-29 15:55:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-03-29 15:55:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-29 15:55:41 - [MESSAGE][PASSED] - I have the browser open
+
+2020-03-29 15:55:41 - [TEST_STEP][PASSED] - I navigate to the URL: I navigate to the URL
+
+2020-03-29 15:55:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost:4200/' successfully
+
+2020-03-29 15:55:42 - [MESSAGE][PASSED] - I navigate to the URL
+
+2020-03-29 15:55:42 - [TEST_STEP][PASSED] - I verify that the element Object Repository/Page_PeeBu/h2_Transactions is present: I verify that the element Object Repository/Page_PeeBu/h2_Transactions is present
+
+2020-03-29 15:55:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-29 15:55:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/h2_Transactions' is present
+
+2020-03-29 15:55:44 - [MESSAGE][PASSED] - Browser is closed
+
+2020-03-29 15:55:44 - [MESSAGE][PASSED] - I verify that the element Object Repository/Page_PeeBu/h2_Transactions is present
+
+2020-03-29 15:55:44 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check elements are present: SCENARIO Check elements are present
+
+2020-03-29 15:55:44 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-03-29 15:55:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-03-29 15:55:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-29 15:55:49 - [MESSAGE][PASSED] - I have the browser open
+
+2020-03-29 15:55:49 - [TEST_STEP][PASSED] - I navigate to the URL: I navigate to the URL
+
+2020-03-29 15:55:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost:4200/' successfully
+
+2020-03-29 15:55:50 - [MESSAGE][PASSED] - I navigate to the URL
+
+2020-03-29 15:55:50 - [TEST_STEP][PASSED] - I verify that the element Object Repository/Page_PeeBu/button_Show Chart is present: I verify that the element Object Repository/Page_PeeBu/button_Show Chart is present
+
+2020-03-29 15:55:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-29 15:55:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/button_Show Chart' is present
+
+2020-03-29 15:55:52 - [MESSAGE][PASSED] - Browser is closed
+
+2020-03-29 15:55:52 - [MESSAGE][PASSED] - I verify that the element Object Repository/Page_PeeBu/button_Show Chart is present
+
+2020-03-29 15:55:52 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check elements are present: SCENARIO Check elements are present
+
+2020-03-29 15:55:52 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-03-29 15:55:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-03-29 15:55:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-29 15:55:59 - [MESSAGE][PASSED] - I have the browser open
+
+2020-03-29 15:55:59 - [TEST_STEP][PASSED] - I navigate to the URL: I navigate to the URL
+
+2020-03-29 15:56:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost:4200/' successfully
+
+2020-03-29 15:56:01 - [MESSAGE][PASSED] - I navigate to the URL
+
+2020-03-29 15:56:01 - [TEST_STEP][PASSED] - I verify that the element Object Repository/Page_PeeBu/footer_Polythecnic Of Leiria is present: I verify that the element Object Repository/Page_PeeBu/footer_Polythecnic Of Leiria is present
+
+2020-03-29 15:56:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-29 15:56:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/footer_Polythecnic Of Leiria' is present
+
+2020-03-29 15:56:03 - [MESSAGE][PASSED] - Browser is closed
+
+2020-03-29 15:56:03 - [MESSAGE][PASSED] - I verify that the element Object Repository/Page_PeeBu/footer_Polythecnic Of Leiria is present
+
+2020-03-29 15:56:03 - [MESSAGE][PASSED] - Feature file: 'Include/features/CheckLandingPageLoaded.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-29 15:55:03 - [TEST_SUITE][PASSED] - LandingPageTestSuite: Test Cases/RunCheckLandingPageLoadedFeature]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-03-29T14:12:01</date>
+  <millis>1585487521064</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/LandingPageTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">LandingPageTestSuite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/LandingPageTestSuite</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:01</date>
+  <millis>1585487521095</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = javie - DESKTOP-GVM9QB9</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">javie - DESKTOP-GVM9QB9</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:01</date>
+  <millis>1585487521097</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:01</date>
+  <millis>1585487521098</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.44.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.44.1</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:01</date>
+  <millis>1585487521100</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.1.1</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:01</date>
+  <millis>1585487521657</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/RunCheckLandingPageLoadedFeature</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/RunCheckLandingPageLoadedFeature</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/RunCheckLandingPageLoadedFeature</property>
+  <property name="source">C:\\Users\\javie\\Katalon Studio\\PeeBuTests\\Test Cases\\RunCheckLandingPageLoadedFeature.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:02</date>
+  <millis>1585487522544</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/CheckLandingPageLoaded.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:02</date>
+  <millis>1585487522685</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/CheckLandingPageLoaded.feature&amp;apos; and extract report to folder: &amp;apos;C:\\Users\\javie\\Katalon Studio\\PeeBuTests\\Reports\\20200329_141153\\LandingPageTestSuite\\20200329_141153/cucumber_report/1585487522664&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:03</date>
+  <millis>1585487523965</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Check title of the page is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:03</date>
+  <millis>1585487523971</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:04</date>
+  <millis>1585487524561</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:04</date>
+  <millis>1585487524825</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:12</date>
+  <millis>1585487532053</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 672fd245-eb2b-437b-b7cf-792ff69c67bf</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">672fd245-eb2b-437b-b7cf-792ff69c67bf</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:12</date>
+  <millis>1585487532088</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Firefox 74.0</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Firefox 74.0</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:12</date>
+  <millis>1585487532089</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:12</date>
+  <millis>1585487532090</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:12</date>
+  <millis>1585487532091</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:12</date>
+  <millis>1585487532128</millis>
+  <sequence>21</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:12</date>
+  <millis>1585487532204</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:12</date>
+  <millis>1585487532205</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:12</date>
+  <millis>1585487532208</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:13</date>
+  <millis>1585487533488</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://localhost:4200/&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:13</date>
+  <millis>1585487533490</millis>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:13</date>
+  <millis>1585487533490</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:13</date>
+  <millis>1585487533492</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I verify that the header \&amp;quot;PeeBu\&amp;quot; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:14</date>
+  <millis>1585487534151</millis>
+  <sequence>38</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text and expected text of test object &amp;apos;Object Repository/Page_PeeBu/span_Welcome to PeeBu&amp;apos; are matched.</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:14</date>
+  <millis>1585487534153</millis>
+  <sequence>39</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I verify that the header \&amp;quot;PeeBu\&amp;quot; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:14</date>
+  <millis>1585487534154</millis>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I verify that the header \&amp;quot;PeeBu\&amp;quot; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:14</date>
+  <millis>1585487534158</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Check title of the page is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:14</date>
+  <millis>1585487534158</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Check title of the page is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:14</date>
+  <millis>1585487534163</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Check elements are present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:14</date>
+  <millis>1585487534164</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:14</date>
+  <millis>1585487534182</millis>
+  <sequence>46</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:16</date>
+  <millis>1585487536167</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:23</date>
+  <millis>1585487543685</millis>
+  <sequence>50</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 1ef16e4a-dced-496b-b504-d8b2cb288674</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">1ef16e4a-dced-496b-b504-d8b2cb288674</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:23</date>
+  <millis>1585487543728</millis>
+  <sequence>51</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Firefox 74.0</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Firefox 74.0</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:23</date>
+  <millis>1585487543729</millis>
+  <sequence>52</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:23</date>
+  <millis>1585487543729</millis>
+  <sequence>53</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:23</date>
+  <millis>1585487543730</millis>
+  <sequence>54</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:23</date>
+  <millis>1585487543759</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:23</date>
+  <millis>1585487543761</millis>
+  <sequence>56</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:23</date>
+  <millis>1585487543762</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:23</date>
+  <millis>1585487543763</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:25</date>
+  <millis>1585487545646</millis>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://localhost:4200/&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:25</date>
+  <millis>1585487545648</millis>
+  <sequence>62</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:25</date>
+  <millis>1585487545648</millis>
+  <sequence>63</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:25</date>
+  <millis>1585487545650</millis>
+  <sequence>64</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I verify that the element Object Repository/Page_PeeBu/h1_Home is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:25</date>
+  <millis>1585487545805</millis>
+  <sequence>69</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:28</date>
+  <millis>1585487548717</millis>
+  <sequence>73</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_PeeBu/h1_Home&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:30</date>
+  <millis>1585487550989</millis>
+  <sequence>75</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:30</date>
+  <millis>1585487550990</millis>
+  <sequence>76</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I verify that the element Object Repository/Page_PeeBu/h1_Home is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:30</date>
+  <millis>1585487550991</millis>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I verify that the element Object Repository/Page_PeeBu/h1_Home is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:30</date>
+  <millis>1585487550991</millis>
+  <sequence>78</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Check elements are present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:30</date>
+  <millis>1585487550992</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Check elements are present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:30</date>
+  <millis>1585487550994</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Check elements are present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:30</date>
+  <millis>1585487550995</millis>
+  <sequence>81</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:31</date>
+  <millis>1585487551014</millis>
+  <sequence>83</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:38</date>
+  <millis>1585487558043</millis>
+  <sequence>86</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 97e060bd-6652-4c05-8b00-85bc6083576f</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">97e060bd-6652-4c05-8b00-85bc6083576f</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:38</date>
+  <millis>1585487558068</millis>
+  <sequence>87</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Firefox 74.0</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Firefox 74.0</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:38</date>
+  <millis>1585487558068</millis>
+  <sequence>88</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:38</date>
+  <millis>1585487558069</millis>
+  <sequence>89</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:38</date>
+  <millis>1585487558071</millis>
+  <sequence>90</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:38</date>
+  <millis>1585487558105</millis>
+  <sequence>91</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:38</date>
+  <millis>1585487558106</millis>
+  <sequence>92</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:38</date>
+  <millis>1585487558106</millis>
+  <sequence>93</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:38</date>
+  <millis>1585487558107</millis>
+  <sequence>94</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:39</date>
+  <millis>1585487559454</millis>
+  <sequence>97</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://localhost:4200/&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:39</date>
+  <millis>1585487559455</millis>
+  <sequence>98</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:39</date>
+  <millis>1585487559456</millis>
+  <sequence>99</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:39</date>
+  <millis>1585487559457</millis>
+  <sequence>100</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I verify that the element Object Repository/Page_PeeBu/h2_Transactions is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:39</date>
+  <millis>1585487559671</millis>
+  <sequence>105</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:39</date>
+  <millis>1585487559959</millis>
+  <sequence>109</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_PeeBu/h2_Transactions&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:41</date>
+  <millis>1585487561994</millis>
+  <sequence>111</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:41</date>
+  <millis>1585487561997</millis>
+  <sequence>112</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I verify that the element Object Repository/Page_PeeBu/h2_Transactions is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:41</date>
+  <millis>1585487561997</millis>
+  <sequence>113</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I verify that the element Object Repository/Page_PeeBu/h2_Transactions is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:41</date>
+  <millis>1585487561999</millis>
+  <sequence>114</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Check elements are present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:42</date>
+  <millis>1585487562000</millis>
+  <sequence>115</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Check elements are present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:42</date>
+  <millis>1585487562004</millis>
+  <sequence>116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Check elements are present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:42</date>
+  <millis>1585487562008</millis>
+  <sequence>117</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:42</date>
+  <millis>1585487562026</millis>
+  <sequence>119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:46</date>
+  <millis>1585487566835</millis>
+  <sequence>122</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = c0f10578-9a07-4d8b-bd83-befca2687669</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">c0f10578-9a07-4d8b-bd83-befca2687669</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:46</date>
+  <millis>1585487566854</millis>
+  <sequence>123</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Firefox 74.0</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Firefox 74.0</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:46</date>
+  <millis>1585487566855</millis>
+  <sequence>124</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:46</date>
+  <millis>1585487566855</millis>
+  <sequence>125</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:46</date>
+  <millis>1585487566856</millis>
+  <sequence>126</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:46</date>
+  <millis>1585487566881</millis>
+  <sequence>127</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:46</date>
+  <millis>1585487566882</millis>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:46</date>
+  <millis>1585487566882</millis>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:46</date>
+  <millis>1585487566883</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:48</date>
+  <millis>1585487568098</millis>
+  <sequence>133</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://localhost:4200/&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:48</date>
+  <millis>1585487568099</millis>
+  <sequence>134</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:48</date>
+  <millis>1585487568100</millis>
+  <sequence>135</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:48</date>
+  <millis>1585487568101</millis>
+  <sequence>136</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I verify that the element Object Repository/Page_PeeBu/button_Show Chart is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:48</date>
+  <millis>1585487568256</millis>
+  <sequence>141</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:48</date>
+  <millis>1585487568529</millis>
+  <sequence>145</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_PeeBu/button_Show Chart&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:50</date>
+  <millis>1585487570376</millis>
+  <sequence>147</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:50</date>
+  <millis>1585487570377</millis>
+  <sequence>148</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I verify that the element Object Repository/Page_PeeBu/button_Show Chart is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:50</date>
+  <millis>1585487570377</millis>
+  <sequence>149</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I verify that the element Object Repository/Page_PeeBu/button_Show Chart is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:50</date>
+  <millis>1585487570377</millis>
+  <sequence>150</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Check elements are present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:50</date>
+  <millis>1585487570378</millis>
+  <sequence>151</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Check elements are present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:50</date>
+  <millis>1585487570379</millis>
+  <sequence>152</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Check elements are present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:50</date>
+  <millis>1585487570379</millis>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:50</date>
+  <millis>1585487570385</millis>
+  <sequence>155</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:55</date>
+  <millis>1585487575136</millis>
+  <sequence>158</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = b8b611cf-4f9e-483d-b04c-6360f19f8aef</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">b8b611cf-4f9e-483d-b04c-6360f19f8aef</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:55</date>
+  <millis>1585487575159</millis>
+  <sequence>159</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Firefox 74.0</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Firefox 74.0</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:55</date>
+  <millis>1585487575159</millis>
+  <sequence>160</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:55</date>
+  <millis>1585487575160</millis>
+  <sequence>161</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:55</date>
+  <millis>1585487575163</millis>
+  <sequence>162</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</property>
+</record>
+<record>
+  <date>2020-03-29T14:12:55</date>
+  <millis>1585487575198</millis>
+  <sequence>163</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:55</date>
+  <millis>1585487575199</millis>
+  <sequence>164</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:55</date>
+  <millis>1585487575199</millis>
+  <sequence>165</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I have the browser open</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:55</date>
+  <millis>1585487575200</millis>
+  <sequence>166</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:56</date>
+  <millis>1585487576574</millis>
+  <sequence>169</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://localhost:4200/&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:56</date>
+  <millis>1585487576575</millis>
+  <sequence>170</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:56</date>
+  <millis>1585487576575</millis>
+  <sequence>171</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I navigate to the URL</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:56</date>
+  <millis>1585487576577</millis>
+  <sequence>172</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I verify that the element Object Repository/Page_PeeBu/footer_Polythecnic Of Leiria is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:56</date>
+  <millis>1585487576768</millis>
+  <sequence>177</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:57</date>
+  <millis>1585487577153</millis>
+  <sequence>181</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_PeeBu/footer_Polythecnic Of Leiria&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:58</date>
+  <millis>1585487578959</millis>
+  <sequence>183</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:58</date>
+  <millis>1585487578961</millis>
+  <sequence>184</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I verify that the element Object Repository/Page_PeeBu/footer_Polythecnic Of Leiria is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:58</date>
+  <millis>1585487578962</millis>
+  <sequence>185</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I verify that the element Object Repository/Page_PeeBu/footer_Polythecnic Of Leiria is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:58</date>
+  <millis>1585487578963</millis>
+  <sequence>186</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Check elements are present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:58</date>
+  <millis>1585487578965</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Check elements are present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:59</date>
+  <millis>1585487579082</millis>
+  <sequence>188</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file: &amp;apos;Include/features/CheckLandingPageLoaded.feature&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:59</date>
+  <millis>1585487579083</millis>
+  <sequence>189</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/CheckLandingPageLoaded.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:59</date>
+  <millis>1585487579083</millis>
+  <sequence>190</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/RunCheckLandingPageLoadedFeature</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:59</date>
+  <millis>1585487579084</millis>
+  <sequence>191</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/RunCheckLandingPageLoadedFeature</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-29T14:12:59</date>
+  <millis>1585487579164</millis>
+  <sequence>192</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/LandingPageTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
