@@ -6,7 +6,7 @@ Feature: Check transaction grid filtering
   Scenario Outline: Check that grid string columns are filterable
     Given I have the browser open
     When I navigate to the URL
-    Then I click <columnObjectId> filter
+    And I click <columnObjectId> filter
     And I type some <textToFilter> to filter
     And I click filter button
     Then I see only filtered transactions
@@ -21,7 +21,7 @@ Feature: Check transaction grid filtering
   Scenario: Check that created date is filterable
     Given I have the browser open
     When I navigate to the URL
-    Then I click "createdDateColumnId" filter
+    And I click "createdDateColumnId" filter
     And I select a "startDate" to filter
     And I select a "endDate" to filter
     And I click filter button
@@ -30,7 +30,7 @@ Feature: Check transaction grid filtering
   Scenario: Check that amount is filterable
     Given I have the browser open
     When I navigate to the URL
-    Then I click "amountColumnId" filter
+    And I click "amountColumnId" filter
     And I write a "biggerThanNumber" to filter
     And I write a "lessThanNumber" to filter
     And I click filter button
