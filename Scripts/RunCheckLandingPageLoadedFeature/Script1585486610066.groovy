@@ -17,3 +17,5 @@ import internal.GlobalVariable as GlobalVariable
 
 CucumberKW.runFeatureFile('Include/features/CheckLandingPageLoaded.feature')
 
+not_run: CucumberKW.runFeatureFolder('Include/features')
+
