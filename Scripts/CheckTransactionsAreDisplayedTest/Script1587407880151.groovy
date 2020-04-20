@@ -14,8 +14,27 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/CheckLandingPageLoaded.feature')
+WebUI.openBrowser('')
 
-not_run: CucumberKW.runFeatureFolder('Include/features')
+WebUI.navigateToUrl('http://localhost:4200/')
+
+WebUI.click(findTestObject('Page_PeeBu/kendo-grid_IdCreated DateEntityPriceTypeSou_7f689a'))
+
+WebUI.click(findTestObject('Object Repository/Page_PeeBu/th_Id'))
+
+WebUI.click(findTestObject('Object Repository/Page_PeeBu/th_Created Date'))
+
+WebUI.click(findTestObject('Object Repository/Page_PeeBu/th_Entity'))
+
+WebUI.click(findTestObject('Object Repository/Page_PeeBu/th_Price'))
+
+WebUI.click(findTestObject('Object Repository/Page_PeeBu/th_Type'))
+
+WebUI.click(findTestObject('Object Repository/Page_PeeBu/th_Source'))
+
+WebUI.click(findTestObject('Object Repository/Page_PeeBu/td_1'))
+
+WebUI.closeBrowser()
 
