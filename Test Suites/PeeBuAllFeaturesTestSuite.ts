@@ -11,9 +11,15 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>544af2ed-ec5c-48e0-bdeb-c48fd74e3248</testSuiteGuid>
    <testCaseLink>
-      <guid>6c830227-f852-4cee-899f-df8a1599a00a</guid>
+      <guid>50e93f04-12a2-4dad-ba44-67dad51878b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RunCheckLandingPageLoadedFeature</testCaseId>
+      <testCaseId>Test Cases/Runner/RunCheckLandingPageLoadedFeature</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>79c6636e-45b6-4ea3-848a-64d72b811c50</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Runner/RunCheckTransactionsAreDisplayedFeature</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
