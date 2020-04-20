@@ -3,26 +3,26 @@ Feature: Check transactions are displayed
   I want to see my transactions
   So I can manage my spendings
 
-  Scenario: Check if grid is loaded
+  Background: 
     Given I have the browser open
+
+  Scenario: Check if grid is loaded
     When I navigate to the URL
     Then I verify that the transactions grid is present
 
   Scenario Outline: Check if all columns are rendered
-    Given I have the browser open
     When I navigate to the URL
-    Then I verify that the columns are in the grid
+    Then I verify that the column <objectId> is in the grid
 
     Examples: 
-      | objectId      |
-      | transactionId |
-      | createdDate   |
-      | entity        |
-      | amount        |
-      | type          |
-      | source        |
+      | objectId                                     |
+      | Object Repository/Page_PeeBu/th_Id           |
+      | Object Repository/Page_PeeBu/th_Created Date |
+      | Object Repository/Page_PeeBu/th_Entity       |
+      | Object Repository/Page_PeeBu/th_Price        |
+      | Object Repository/Page_PeeBu/th_Type         |
+      | Object Repository/Page_PeeBu/th_Source       |
 
   Scenario: Check if data was fetched
-    Given I have the browser open
     When I navigate to the URL
     Then I verify that transactions are being displayed in the grid

@@ -3,13 +3,14 @@ Feature: Check landing page is loaded
   I want to navigate to {insertMyWebURL}
   So that I can see the landing page
 
+	Background:
+	Given I have the browser open
+
   Scenario: Check title of the page is present
-    Given I have the browser open
     When I navigate to the URL
     Then I verify that the header "PeeBu" is present
 
   Scenario Outline: Check elements are present
-    Given I have the browser open
     When I navigate to the URL
     Then I verify that the element <objectId> is present
 
