@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kendo-grid_IdCreated DateEntityPriceTypeSou_7f689a</name>
+   <tag></tag>
+   <elementGuidId>b7e73efe-dd76-4e91-9c75-e93387c70c64</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//kendo-grid[@id='detailsKendoGrid']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>kendo-grid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>detailsKendoGrid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-height</name>
+      <type>Main</type>
+      <value>410</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>ltr</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-widget k-grid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-data</name>
+      <type>Main</type>
+      <value>[object Object],[object Object</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>IdCreated DateEntityPriceTypeSource1 16/06/2019 10:09 PM Wintheiser, Kuhn and Turcotte269.10invoicesource 12 16/09/2019 2:19 PM Gislason - Rau433.10paymentsource 23 09/02/2020 3:00 AM Fritsch, Jacobson and Bruen71.86paymentsource 34 12/05/2019 5:33 AM Crist - Wintheiser347.17depositsource 45 08/08/2019 12:07 AM Collier, Wisoky and Gaylord905.98paymentsource 56 27/04/2019 4:16 AM Kutch LLC776.76invoicesource 67 23/11/2019 9:47 AM Thompson Group514.39withdrawalsource 78 09/11/2019 3:40 AM Trantow - Medhurst480.42withdrawalsource 89 01/01/2020 9:20 AM Johnson and Sons299.26paymentsource 910 26/06/2019 12:06 AM Bins - Wyman799.80withdrawalsource 1011 29/05/2019 2:19 AM Grant - Jakubowski401.13withdrawalsource 1112 10/02/2020 11:00 PM Jaskolski - Lang898.95withdrawalsource 1213 10/11/2019 8:59 AM Pouros Group17.79withdrawalsource 1314 04/08/2019 1:24 AM Hackett - Grady912.32paymentsource 1415 09/01/2020 7:24 PM Hilll - Pouros698.43withdrawalsource 1516 06/08/2019 5:42 PM Koch LLC854.98depositsource 1617 17/03/2019 6:48 PM Nolan Inc684.52invoicesource 1718 25/02/2020 11:17 PM Roberts LLC259.91invoicesource 1819 14/03/2019 3:02 AM Kub - Legros256.49withdrawalsource 1920 04/05/2019 8:26 AM Gutmann, Jakubowski and Ratke799.44paymentsource 2021 21/03/2019 12:52 PM Doyle, Doyle and O'Connell402.87paymentsource 2122 23/10/2019 9:39 PM Mueller - O'Hara966.94paymentsource 2223 18/01/2020 10:08 PM Hagenes - Ondricka998.90withdrawalsource 2324 09/08/2019 4:20 PM Gusikowski - Kirlin897.90depositsource 2425 07/12/2019 5:14 AM Lind, Cruickshank and McLaughlin113.89depositsource 2526 16/09/2019 10:24 AM Price - Gorczany234.52invoicesource 2627 28/09/2019 2:31 AM Lang LLC889.13depositsource 2728 28/02/2020 7:34 PM Hansen Inc29.68invoicesource 2829 09/10/2019 3:17 AM Jerde Group231.67invoicesource 2930 15/07/2019 5:33 PM Weissnat - Wuckert845.95invoicesource 3031 07/12/2019 5:45 AM King - Baumbach816.57paymentsource 3132 16/03/2019 6:22 AM Hilll Group387.86withdrawalsource 3233 26/11/2019 11:02 PM Douglas, Nolan and Runolfsdottir66.18withdrawalsource 3334 14/12/2019 4:19 PM Huels, Hagenes and Stehr240.43withdrawalsource 3435 17/04/2019 6:39 AM Beatty and Sons762.79paymentsource 3536 27/03/2019 9:40 PM Watsica - Conn525.33depositsource 3637 06/11/2019 10:22 AM Christiansen, Cronin and Tremblay357.42invoicesource 3738 18/11/2019 10:44 PM Yost - Reilly171.97withdrawalsource 3839 17/09/2019 10:14 AM Heathcote - Dooley504.30invoicesource 3940 14/01/2020 10:16 AM Rau - Hermiston759.80paymentsource 4041 11/08/2019 12:02 PM Franecki, Kunde and Walsh647.71depositsource 4142 24/12/2019 5:05 AM Lockman - Abshire954.92withdrawalsource 4243 24/09/2019 6:35 PM Braun, Hilpert and Koss350.46withdrawalsource 4344 22/07/2019 3:06 PM Erdman, Wisozk and Kris93.77paymentsource 4445 15/08/2019 4:15 PM Lakin Group491.63depositsource 4546 26/05/2019 6:20 AM Rodriguez Group348.74depositsource 4647 12/03/2019 8:54 PM McClure LLC129.83withdrawalsource 4748 14/06/2019 11:41 PM Beahan Inc318.35invoicesource 4849 08/07/2019 7:38 PM Batz, Littel and Treutel400.49withdrawalsource 4950 18/09/2019 6:53 AM Raynor Inc780.54withdrawalsource 5051 01/07/2019 8:16 AM Ritchie, Von and Stracke836.54invoicesource 5152 25/12/2019 8:33 PM Bashirian Group341.12withdrawalsource 5253 03/02/2020 2:08 AM Wolff - Reynolds72.17depositsource 5354 07/04/2019 4:35 AM Tromp - Berge394.48paymentsource 5455 14/07/2019 3:15 PM Rogahn, Mayert and Leffler747.13invoicesource 5556 17/09/2019 8:47 AM Blanda - Hickle265.67invoicesource 5657 27/05/2019 9:02 AM O'Conner, Lang and Batz130.76paymentsource 5758 08/11/2019 8:48 AM Kuhlman and Sons988.58paymentsource 5859 04/03/2020 10:06 AM Hickle Group828.45invoicesource 5960 14/09/2019 11:37 AM Lind, Lehner and Hudson347.75invoicesource 6061 21/01/2020 4:58 PM Simonis, Walker and Heaney652.11withdrawalsource 6162 10/08/2019 3:13 PM Windler LLC124.37paymentsource 6263 04/09/2019 4:03 AM Armstrong - Kunze891.43paymentsource 6364 28/03/2020 4:15 AM Corkery - Huel535.86withdrawalsource 6465 14/03/2020 3:59 PM Berge - Aufderhar710.50paymentsource 6566 04/04/2019 12:20 AM Hackett Inc791.06paymentsource 6667 07/10/2019 5:34 PM Raynor, Nader and Miller52.48withdrawalsource 6768 16/03/2020 9:22 PM Beatty, Boyle and Torp730.38depositsource 6869 01/01/2020 11:10 PM Rohan, Conn and Torphy804.86withdrawalsource 6970 09/04/2019 1:53 PM Corkery and Sons962.23invoicesource 7071 30/10/2019 1:45 PM Gutkowski, Hilpert and Smith473.60paymentsource 7172 08/09/2019 3:17 PM Gerhold - Brakus562.23withdrawalsource 7273 09/12/2019 5:53 AM Hagenes - Murphy124.14withdrawalsource 7374 27/08/2019 5:47 PM Fahey - Bergnaum614.16withdrawalsource 7475 11/05/2019 1:05 PM Baumbach LLC780.07invoicesource 7576 08/03/2020 8:42 AM Hilll - Kerluke586.59withdrawalsource 7677 24/04/2019 2:56 AM Keeling LLC46.98depositsource 7778 19/02/2020 3:47 PM Miller - O'Kon960.53invoicesource 7879 01/11/2019 2:46 PM Kutch LLC236.25paymentsource 7980 27/09/2019 6:39 PM Pagac, Hilll and Wehner279.54invoicesource 8081 04/02/2020 1:52 AM Becker and Sons790.12paymentsource 8182 27/03/2020 11:43 AM Bernier, Metz and Kihn567.80depositsource 8283 11/11/2019 4:25 AM Abernathy, Ondricka and Pfeffer195.64invoicesource 8384 19/07/2019 10:39 PM Thiel - Bogisich733.04paymentsource 8485 10/07/2019 3:51 PM Vandervort - Funk850.53depositsource 8586 21/03/2020 2:45 PM Yundt and Sons746.51depositsource 8687 15/10/2019 10:03 AM Feil - McClure260.19invoicesource 8788 27/10/2019 3:19 PM Langosh Inc217.07depositsource 8889 27/11/2019 2:33 AM Hyatt, Walter and Rippin9.78depositsource 8990 03/02/2020 2:49 AM Howe Group892.19depositsource 9091 26/07/2019 8:18 AM Mante, Dietrich and Treutel33.13withdrawalsource 9192 21/01/2020 7:01 PM Reilly Group686.36depositsource 9293 07/10/2019 5:30 PM Harvey, Murazik and Jast137.67withdrawalsource 9394 20/02/2020 11:15 AM Bernier Group396.25paymentsource 9495 11/03/2020 6:16 PM Watsica LLC636.53depositsource 9596 25/05/2019 6:20 PM Jenkins LLC916.93invoicesource 9697 26/04/2019 5:42 AM Roberts Inc430.65depositsource 9798 05/06/2019 1:28 PM Botsford LLC63.11paymentsource 9899 08/12/2019 3:44 AM Ward, Medhurst and Fritsch706.79invoicesource 99100 24/03/2020 12:26 AM Ryan, Larson and Fadel81.82withdrawalsource 100</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;detailsKendoGrid&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//kendo-grid[@id='detailsKendoGrid']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transactions'])[1]/following::kendo-grid[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::kendo-grid[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//kendo-grid</value>
+   </webElementXpaths>
+</WebElementEntity>
