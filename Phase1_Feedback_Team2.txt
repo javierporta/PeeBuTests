@@ -1,0 +1,80 @@
+#FeatureFiles = 9
+
+*** Landing Page (CheckLandingPageLoaded || CheckTransactionsAreDisplayed)
+- Happy Path - ok
+
+- Scenarios - 0
+>> how will you assess that all the transactions are presented on the list?
+>> what happens when the balance does not exist?
+>> and if the API Web Service is not available?
+
+- Test Setup and Teardown - 0
+
+
+
+
+*** Transaction Details (CheckTransactionDetailsPage)
+- Happy Path - ok
+
+- Scenarios - 1
+>> what appears in the column if the entry does not have a value specified for that column?
+
+- Test Setup and Teardown - 0
+
+
+
+
+*** Transaction Classification (CheckSetCategory)
+- Happy Path - ok
+
+- Scenarios - 1
+>> I can only classify one row at a time?
+>> Can a classification be updated? Reset?
+
+- Test Setup and Teardown - 0
+
+
+
+
+*** Identification of Unclassified Transactions (CheckTransactionUnclassified)
+- Happy Path - ok
+
+- Scenarios - 1
+>> is there an option to check (get a list of) all the transactions that are not classified
+
+- Test Setup and Teardown - 0
+
+
+
+
+*** Filtering (CheckTransactionGridFiltering || CheckTransactionGridGrouping || CheckTransactionGridSortable)
+- Happy Path - ok
+
+- Scenarios - 5
+>> how can I filter by classification?
+>> what happens if I  don't have any transaction? how will the grouping or filtering work?
+
+- Test Setup and Teardown - 0
+
+
+
+
+*** Fully Classified Transactions List with Aggregate Information (CheckTransactionChart)
+- Happy Path - ok
+
+- Scenarios - 0
+>> where are the tables?
+>> where is the timeline for the transactions?
+>> what happens when there is no data?
+
+- Test Setup and Teardown - 0
+
+
+
+!!!!! Gherkin Usage
+No usage of the "Background" keyword
+Not enough usage of "Scenario Outline+Examples"
+
+###################
+
+Pipeline: In the "Run automated tests" and "Perform manual testing" jobs, the post-build actions should be of type "Build other projects (manual step)"
