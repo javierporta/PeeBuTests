@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>URL for testing</description>
-      <initValue>'http://34.91.165.253'</initValue>
+      <initValue>'http://35.204.247.238'</initValue>
       <name>PeeBu_URL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
