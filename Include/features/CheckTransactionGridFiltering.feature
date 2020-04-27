@@ -17,8 +17,10 @@ Feature: Check transaction grid filtering
       | columnObjectId                                             | inputObjectId                                                            | textToFilter | firstRowColumnId |
       | Object Repository/Page_PeeBu/span_Source_k-icon k-i-filter | Object Repository/Page_PeeBu/input_Contains_k-textbox FilterInput Source | source 10    | Object Repository/Page_PeeBu/FirstTableRow_Source |
       | Object Repository/Page_PeeBu/span_Entity_k-icon k-i-filter | Object Repository/Page_PeeBu/input_Contains_k-textbox FilterInput Entity | Hilll Group  | Object Repository/Page_PeeBu/FirstTableRow_Entity |
-      #| type                                                       | Object Repository/Page_PeeBu/input_Contains_k-textbox ng-untouched ng-pr_bd07bf | withdrawal   | |
-
+      | Object Repository/Page_PeeBu/span_Type_k-icon k-i-filter | Object Repository/Page_PeeBu/input_Contains_k-textbox FilterInput Type | withdrawal   | Object Repository/Page_PeeBu/FirstTableRow_Type |
+      
+      
+      
   #Scenario: Check that created date is filterable
   #  When I click "createdDateColumnId" column filter
   #  And I select a "startDate" to filter
