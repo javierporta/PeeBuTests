@@ -22,4 +22,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Runner/RunCheckTransactionsAreDisplayedFeature</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>729523a9-bf90-4b14-9992-b2b48d9b8628</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Runner/RunCheckTransactionsGridFilteringFeature</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
