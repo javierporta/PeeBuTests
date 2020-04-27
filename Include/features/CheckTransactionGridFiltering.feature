@@ -11,13 +11,13 @@ Feature: Check transaction grid filtering
     When I click <columnObjectId> column filter
     And I type some <textToFilter> in <inputObjectId> to filter
     And I click filter button
-    Then I see only filtered transactions with <textToFilter> 
+    Then I see only filtered transactions with <textToFilter> in <firstRowColumnId>
 
     Examples: 
-      | columnObjectId                                             | inputObjectId                                                                   | textToFilter |
-      | Object Repository/Page_PeeBu/span_Source_k-icon k-i-filter | Object Repository/Page_PeeBu/input_Contains_k-textbox FilterInput Source | source 10    |
-     # | Object Repository/Page_PeeBu/span_Entity_k-icon k-i-filter | Object Repository/Page_PeeBu/input_Contains_k-textbox FilterInput Entity | Hilll Group  |
-      #| type                                                       | Object Repository/Page_PeeBu/input_Contains_k-textbox ng-untouched ng-pr_bd07bf | withdrawal   |
+      | columnObjectId                                             | inputObjectId                                                            | textToFilter | firstRowColumnId |
+      | Object Repository/Page_PeeBu/span_Source_k-icon k-i-filter | Object Repository/Page_PeeBu/input_Contains_k-textbox FilterInput Source | source 10    | Object Repository/Page_PeeBu/FirstTableRow_Source |
+      | Object Repository/Page_PeeBu/span_Entity_k-icon k-i-filter | Object Repository/Page_PeeBu/input_Contains_k-textbox FilterInput Entity | Hilll Group  | Object Repository/Page_PeeBu/FirstTableRow_Entity |
+      #| type                                                       | Object Repository/Page_PeeBu/input_Contains_k-textbox ng-untouched ng-pr_bd07bf | withdrawal   | |
 
   #Scenario: Check that created date is filterable
   #  When I click "createdDateColumnId" column filter

@@ -64,9 +64,9 @@ class CheckTransactionsGridFilteringStepDef {
 		WebUI.click(findTestObject('Object Repository/Page_PeeBu/button_Filter'))
 	}
 
-	@Then("I see only filtered transactions with (.*)")
-	public void i_see_only_filtered_transactions(String valueFiltered) {
-		WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/FirstTableRow_Source'), valueFiltered)
+	@Then("I see only filtered transactions with (.*) in (.*)")
+	public void i_see_only_filtered_transactions(String valueFiltered, String objectId) {
+		WebUI.verifyElementText(findTestObject(objectId), valueFiltered)
 		WebUI.closeBrowser()
 	}
 	
