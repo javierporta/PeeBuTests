@@ -22,7 +22,7 @@ WebUI.navigateToUrl('http://localhost:4200/')
 
 WebUI.click(findTestObject('Object Repository/Page_PeeBu/span_Source_k-icon k-i-filter'))
 
-WebUI.setText(findTestObject('Object Repository/Page_PeeBu/input_Contains_k-textbox ng-untouched ng-pr_bd07bf'), 'source')
+WebUI.setText(findTestObject('Page_PeeBu/input_Contains_k-textbox FilterInput Source'), 'source')
 
 WebUI.click(findTestObject('Object Repository/Page_PeeBu/button_Filter'))
 

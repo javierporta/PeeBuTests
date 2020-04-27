@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Contains_k-textbox ng-untouched ng-pr_bd07bf</name>
+   <name>input_Contains_k-textbox FilterInput Entity</name>
    <tag></tag>
-   <elementGuidId>0e2b7c3d-ecb3-4a9a-bfd7-7677b7b29d01</elementGuidId>
+   <elementGuidId>2dbff01c-b61f-419b-88a0-4bf53b94e2fe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

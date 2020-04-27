@@ -48,81 +48,44 @@ class CheckTransactionsGridFilteringStepDef {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@When("I click transactionId filter")
-public void i_click_transactionId_filter() {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+	@When("I click (.*) column filter")
+	public void i_click_objectId_column_filter(String objectId) {
 
-@When("I type some {int} to filter")
-public void i_type_some_to_filter(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+		WebUI.click(findTestObject(objectId))
+	}
 
-@When("I click filter button")
-public void i_click_filter_button() {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+	@When("I type some (.*) in (.*) to filter")
+	public void i_type_some_in_to_filter(String textToEnter, String objectId) {
+		WebUI.setText(findTestObject(objectId), textToEnter)
+	}
 
-@Then("I see only filtered transactions")
-public void i_see_only_filtered_transactions() {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+	@When("I click filter button")
+	public void i_click_filter_button() {
+		WebUI.click(findTestObject('Object Repository/Page_PeeBu/button_Filter'))
+	}
 
-@When("I click entity filter")
-public void i_click_entity_filter() {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+	@Then("I see only filtered transactions with (.*)")
+	public void i_see_only_filtered_transactions(String valueFiltered) {
+		WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/FirstTableRow_Source'), valueFiltered)
+		WebUI.closeBrowser()
+	}
+	
+	@When("I click entity filter")
+	public void i_click_entity_filter() {
+		// Write code here that turns the phrase above into concrete actions
 
-@When("I type some Hilll Group to filter")
-public void i_type_some_Hilll_Group_to_filter() {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+	}
 
-@When("I click type filter")
-public void i_click_type_filter() {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
 
-@When("I type some withdrawal to filter")
-public void i_type_some_withdrawal_to_filter() {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+	@When("I select a {string} to filter")
+	public void i_select_a_to_filter(String string) {
+		// Write code here that turns the phrase above into concrete actions
 
-@When("I click source filter")
-public void i_click_source_filter() {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+	}
 
-@When("I type some source {int} to filter")
-public void i_type_some_source_to_filter(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+	@When("I write a {string} to filter")
+	public void i_write_a_to_filter(String string) {
+		// Write code here that turns the phrase above into concrete actions
 
-@When("I click {string} filter")
-public void i_click_filter(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
-
-@When("I select a {string} to filter")
-public void i_select_a_to_filter(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
-
-@When("I write a {string} to filter")
-public void i_write_a_to_filter(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+	}
 }
