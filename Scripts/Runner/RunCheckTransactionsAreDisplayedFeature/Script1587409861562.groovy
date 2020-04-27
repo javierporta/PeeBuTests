@@ -17,5 +17,3 @@ import internal.GlobalVariable as GlobalVariable
 
 CucumberKW.runFeatureFile('Include/features/CheckTransactionsAreDisplayed.feature')
 
-not_run: CucumberKW.runFeatureFolder('Include/features')
-
