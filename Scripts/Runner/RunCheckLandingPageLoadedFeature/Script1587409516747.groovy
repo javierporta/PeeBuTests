@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-CucumberKW.runFeatureFile('Include/features/CheckTransactionsAreDisplayed.feature')
+CucumberKW.runFeatureFile('Include/features/CheckLandingPageLoaded.feature')
 
 not_run: CucumberKW.runFeatureFolder('Include/features')
 
