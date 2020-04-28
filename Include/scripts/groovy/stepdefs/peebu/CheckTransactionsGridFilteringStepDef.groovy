@@ -50,7 +50,7 @@ class CheckTransactionsGridFilteringStepDef {
 	 */
 	@When("I click (.*) column filter")
 	public void i_click_objectId_column_filter(String objectId) {
-
+		println("column filter objectId: " + objectId)
 		WebUI.click(findTestObject(objectId))
 	}
 
@@ -69,23 +69,29 @@ class CheckTransactionsGridFilteringStepDef {
 		WebUI.verifyElementText(findTestObject(objectId), valueFiltered)
 		WebUI.closeBrowser()
 	}
+
+
+
+	@When("I write the startDate {string} to filter")
+	public void i_write_the_start_date_to_filter(String startDateInput) {
+		println("startDate: " + startDateInput)
+		WebUI.setText(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_1'), startDateInput)
+
+	}
+
+	@When("I write the endDate {string} to filter")
+	public void i_write_the_end_date_to_filter(String endDateInput) {
+		println("endDate: " + endDateInput)
+		WebUI.click(findTestObject('Page_PeeBu/Filter_CreatedDate_Comparator_2'))
+		WebUI.click(findTestObject('Page_PeeBu/KendoGridDateColumn_IsBefore_Dropdown'))
+		WebUI.setText(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_2'), endDateInput)
+
+	}
 	
-	@When("I click entity filter")
-	public void i_click_entity_filter() {
-		// Write code here that turns the phrase above into concrete actions
-
-	}
-
-
-	@When("I select a {string} to filter")
-	public void i_select_a_to_filter(String string) {
-		// Write code here that turns the phrase above into concrete actions
-
-	}
-
-	@When("I write a {string} to filter")
-	public void i_write_a_to_filter(String string) {
-		// Write code here that turns the phrase above into concrete actions
-
+	@Then("I see only filtered transactions within those dates")
+	public void i_see_only_filtered_transactions_within_those_dates() {
+		//maybe I can get the text here and check if it's between dates
+		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/FirstTableRow_CreateDate'), 0)
+		WebUI.closeBrowser()
 	}
 }
