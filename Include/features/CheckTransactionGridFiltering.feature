@@ -27,15 +27,14 @@ Feature: Check transaction grid filtering
     Then I see only filtered transactions within those dates
 
     Examples: 
-      | startDate    | endDate      |
+      | startDate      | endDate        |
       # Sep 2019
-      | "010920190000" | "011020190000" | 
+      | "010920190000" | "011020190000" |
       # Aug 2019
-      | "010820190000" | "010920190000" | 
+      | "010820190000" | "010920190000" |
       # Jun 2019
-      | "010520190000" | "010620190000" | 
-      
-      
+      | "010520190000" | "010620190000" |
+
   Scenario Outline: Check that amount is filterable
     When I click Object Repository/Page_PeeBu/span_Price_k-icon k-i-filter column filter
     And I write the number <amount> to filter
@@ -43,5 +42,19 @@ Feature: Check transaction grid filtering
     Then I see only filtered transactions with this price
 
     Examples: 
-    | amount |
-    | "269.1" |
+      | amount   |
+      | "269.1"  |
+      | "480.42" |
+      | "730.38" |
+
+  Scenario Outline: Check that filtering by a non positive amount brings no row 
+    When I click Object Repository/Page_PeeBu/span_Price_k-icon k-i-filter column filter
+    And I write the number <amount> to filter
+    And I click filter button
+    Then I don't see any transaction
+
+    Examples: 
+      | amount |
+      | "-5"   |
+      | "-25"  |
+      | "0"    |

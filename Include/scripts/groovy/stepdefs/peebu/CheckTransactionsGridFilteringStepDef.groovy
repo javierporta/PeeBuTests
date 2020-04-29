@@ -106,4 +106,11 @@ class CheckTransactionsGridFilteringStepDef {
 		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/FirstTableRow_Amount'), 0)
 		WebUI.closeBrowser()
 	}
+	
+	@Then("I don't see any transaction")
+	public void i_dont_see_any_transaction() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_PeeBu/td_No records available'), 0)
+		WebUI.closeBrowser()
+	}
+	
 }
