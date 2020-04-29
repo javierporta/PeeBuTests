@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Filter (1)</name>
+   <name>a_Created Date_k-grid-filter</name>
    <tag></tag>
-   <elementGuidId>54474b68-b21d-4113-8398-b8b54cb49db1</elementGuidId>
+   <elementGuidId>259ca819-574a-4dca-9d54-648db216ceba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//kendo-grid[@id='detailsKendoGrid']/div/div/div/table/thead/tr/th[2]/kendo-grid-filter-menu/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,26 +17,33 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>k-button k-primary</value>
+      <value>k-grid-filter</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>ng-reflect-ng-class</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>[object Object]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>title</name>
       <type>Main</type>
       <value>Filter</value>
    </webElementProperties>
@@ -45,55 +52,55 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;ng-tns-0-0&quot;]/app-root[1]/kendo-popup[@class=&quot;k-animation-container k-animation-container-shown&quot;]/div[@class=&quot;k-popup k-grid-filter-popup&quot;]/kendo-grid-filter-menu-container[1]/form[@class=&quot;k-filter-menu k-group k-reset k-state-border-up ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;k-filter-menu-container&quot;]/div[@class=&quot;k-action-buttons k-button-group&quot;]/button[@class=&quot;k-button k-primary&quot;]</value>
+      <value>id(&quot;detailsKendoGrid&quot;)/div[@class=&quot;k-grid-aria-root&quot;]/div[@class=&quot;k-grid-header&quot;]/div[@class=&quot;k-grid-header-wrap&quot;]/table[1]/thead[1]/tr[1]/th[@class=&quot;k-header k-filterable&quot;]/kendo-grid-filter-menu[1]/a[@class=&quot;k-grid-filter&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
+      <value>//kendo-grid[@id='detailsKendoGrid']/div/div/div/table/thead/tr/th[2]/kendo-grid-filter-menu/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Created Date'])[1]//a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contains'])[2]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Id'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entity'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Filter']/parent::*</value>
+      <value>//a[contains(@href, '#')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
+      <value>//a</value>
    </webElementXpaths>
 </WebElementEntity>
