@@ -76,7 +76,6 @@ class CheckTransactionsGridFilteringStepDef {
 	public void i_write_the_start_date_to_filter(String startDateInput) {
 		println("startDate: " + startDateInput)
 		WebUI.setText(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_1'), startDateInput)
-
 	}
 
 	@When("I write the endDate {string} to filter")
@@ -85,13 +84,26 @@ class CheckTransactionsGridFilteringStepDef {
 		WebUI.click(findTestObject('Page_PeeBu/Filter_CreatedDate_Comparator_2'))
 		WebUI.click(findTestObject('Page_PeeBu/KendoGridDateColumn_IsBefore_Dropdown'))
 		WebUI.setText(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_2'), endDateInput)
-
 	}
-	
+
 	@Then("I see only filtered transactions within those dates")
 	public void i_see_only_filtered_transactions_within_those_dates() {
 		//maybe I can get the text here and check if it's between dates
 		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/FirstTableRow_CreateDate'), 0)
+		WebUI.closeBrowser()
+	}
+	
+	@When("I write the number {string} to filter")
+	public void i_write_the_number_to_filter(String numberToFilter) {
+		println("numberToFilter: " + numberToFilter)
+		WebUI.setText(findTestObject('Object Repository/Page_PeeBu/KenoGridNumberFilter_Input_1'), numberToFilter)
+	}
+	
+	
+	@Then("I see only filtered transactions with this price")
+	public void i_see_only_filtered_transactions_with_this_price() {
+		//todo: try to get the price
+		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/FirstTableRow_Amount'), 0)
 		WebUI.closeBrowser()
 	}
 }
