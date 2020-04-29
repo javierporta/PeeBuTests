@@ -14,4 +14,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:4200/')
+
+WebUI.click(findTestObject('Object Repository/Page_PeeBu/span_Price_k-icon k-i-filter'))
+
+WebUI.setText(findTestObject('Object Repository/Page_PeeBu/KenoGridNumberFilter_Input_1'), '269.1')
+
+WebUI.click(findTestObject('Object Repository/Page_PeeBu/button_Filter'))
+
+WebUI.verifyElementPresent(findTestObject('Page_PeeBu/FirstTableRow_Amount'), 0)
+
+WebUI.closeBrowser()
 

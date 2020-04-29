@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>KenoGridNumberFilter_Input_1</name>
+   <tag></tag>
+   <elementGuidId>1ce5d7d9-110b-41e5-bf4f-95207f66d4db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html[1]/body[@class=&quot;ng-tns-0-0&quot;]/app-root[1]/kendo-popup[@class=&quot;k-animation-container k-animation-container-shown&quot;]/div[@class=&quot;k-popup k-grid-filter-popup&quot;]/kendo-grid-filter-menu-container[1]/form[@class=&quot;k-filter-menu k-group k-reset k-state-border-up ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;k-filter-menu-container&quot;]/kendo-grid-numeric-filter-menu[1]/kendo-grid-numeric-filter-menu-input[1]/kendo-grid-filter-menu-input-wrapper[1]/kendo-numerictextbox[@class=&quot;k-widget k-numerictextbox&quot;]/span[@class=&quot;k-numeric-wrap&quot;]//input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;ng-tns-0-0&quot;]/app-root[1]/kendo-popup[@class=&quot;k-animation-container k-animation-container-shown&quot;]/div[@class=&quot;k-popup k-grid-filter-popup&quot;]/kendo-grid-filter-menu-container[1]/form[@class=&quot;k-filter-menu k-group k-reset k-state-border-up ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;k-filter-menu-container&quot;]/kendo-grid-numeric-filter-menu[1]/kendo-grid-numeric-filter-menu-input[1]/kendo-grid-filter-menu-input-wrapper[1]/kendo-numerictextbox[@class=&quot;k-widget k-numerictextbox&quot;]/span[@class=&quot;k-numeric-wrap k-state-focused&quot;]/input[@class=&quot;k-input&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocorrect</name>
+      <type>Main</type>
+      <value>off</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>spinbutton</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-events</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ng-tns-0-0&quot;]/app-root[1]/kendo-popup[@class=&quot;k-animation-container k-animation-container-shown&quot;]/div[@class=&quot;k-popup k-grid-filter-popup&quot;]/kendo-grid-filter-menu-container[1]/form[@class=&quot;k-filter-menu k-group k-reset k-state-border-up ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;k-filter-menu-container&quot;]/kendo-grid-numeric-filter-menu[1]/kendo-grid-numeric-filter-menu-input[1]/kendo-grid-filter-menu-input-wrapper[1]/kendo-numerictextbox[@class=&quot;k-widget k-numerictextbox&quot;]/span[@class=&quot;k-numeric-wrap k-state-focused&quot;]/input[@class=&quot;k-input&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+   </webElementXpaths>
+</WebElementEntity>
