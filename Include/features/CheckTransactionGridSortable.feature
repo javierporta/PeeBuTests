@@ -3,8 +3,13 @@ Feature: Check transaction grid is sortable
   I want to sort transactions in the grid
   So that I can get some general information about my transactions
 
-  Scenario: Check that it is possible to sort the grid by amount
+  Background: 
     Given I have the browser open
     When I navigate to the URL
-    And I click "amountColumnObjectId" column
-    Then I verify that grid is sorted by amount
+
+  Scenario: Check that transacions are orderd by amount in ascending order
+    When I click amount column
+    Then I verify that grid is sorted by amount in ascending order
+    #Scenario: Check that transacions are orderd by amount in desc order 
+    #When I click twice "amountColumnObjectId" column
+    #Then I verify that grid is sorted by amount in desc order
