@@ -28,4 +28,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Runner/RunCheckTransactionsGridFilteringFeature</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>af8aadaf-4482-4614-8741-4a635164a30f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Runner/RunCheckTransactionsGridSortableFeature</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

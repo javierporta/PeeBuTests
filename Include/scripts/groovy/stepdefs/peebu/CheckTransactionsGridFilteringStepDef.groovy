@@ -92,25 +92,24 @@ class CheckTransactionsGridFilteringStepDef {
 		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/FirstTableRow_CreateDate'), 0)
 		WebUI.closeBrowser()
 	}
-	
+
 	@When("I write the number {string} to filter")
 	public void i_write_the_number_to_filter(String numberToFilter) {
 		println("numberToFilter: " + numberToFilter)
 		WebUI.setText(findTestObject('Object Repository/Page_PeeBu/KenoGridNumberFilter_Input_1'), numberToFilter)
 	}
-	
-	
+
+
 	@Then("I see only filtered transactions with this price")
 	public void i_see_only_filtered_transactions_with_this_price() {
 		//todo: try to get the price
 		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/FirstTableRow_Amount'), 0)
 		WebUI.closeBrowser()
 	}
-	
+
 	@Then("I don't see any transaction")
 	public void i_dont_see_any_transaction() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_PeeBu/td_No records available'), 0)
 		WebUI.closeBrowser()
 	}
-	
 }

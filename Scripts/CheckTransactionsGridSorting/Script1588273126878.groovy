@@ -14,6 +14,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/CheckTransactionGridSortable.feature')
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:4200/')
+
+WebUI.click(findTestObject('Object Repository/Page_PeeBu/span_Price'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_PeeBu/span_Transactions_k-icon k-i-sort-asc-sm'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Page_PeeBu/FirstTableRow_Amount'), 0)
+
+WebUI.closeBrowser()
 
