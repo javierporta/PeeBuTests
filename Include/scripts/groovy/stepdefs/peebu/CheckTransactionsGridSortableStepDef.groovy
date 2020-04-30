@@ -43,7 +43,6 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-
 class CheckTransactionsGridSortableStepDef {
 	@When("I click amount column")
 	public void i_click_amount_column() {
@@ -55,10 +54,24 @@ class CheckTransactionsGridSortableStepDef {
 	
 	@Then("I verify that grid is sorted by amount in ascending order")
 	public void i_verify_that_grid_is_sorted_by_amount_in_ascending_order() {
+		//we are showing ascending arrow
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_PeeBu/span_Transactions_k-icon k-i-sort-asc-sm'), 0)
 		
+		String firstRowAmountString = WebUI.getText(findTestObject('Page_PeeBu/FirstTableRow_Amount'))
+		String secondRowAmountString = WebUI.getText(findTestObject('Page_PeeBu/SecondTableRow_Amount'))
+		String thirdRowAmountString = WebUI.getText(findTestObject('Page_PeeBu/ThirdTableRow_Amount'))
 		
-		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/FirstTableRow_Amount'), 0)
+		
+		float firstRowAmount = Float.parseFloat(firstRowAmountString.replace('$', '')) //remove $ and convert to float to be comparable with others
+		float secondRowAmount = Float.parseFloat(secondRowAmountString.replace('$', '')) //remove $ and convert to float to be comparable with others
+		float thirdRowAmount = Float.parseFloat(thirdRowAmountString.replace('$', '')) //remove $ and convert to float to be comparable with others
+		
+		//verify first row amount is smaller than second one
+		WebUI.verifyLessThanOrEqual(firstRowAmount, secondRowAmount)
+
+		//verify second row amount is smaller than third one
+		WebUI.verifyLessThanOrEqual(secondRowAmount, thirdRowAmount)
+		
 		WebUI.closeBrowser()
 		
 	 
