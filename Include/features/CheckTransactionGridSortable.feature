@@ -10,6 +10,7 @@ Feature: Check transaction grid is sortable
   Scenario: Check that transacions are orderd by amount in ascending order
     When I click amount column
     Then I verify that grid is sorted by amount in ascending order
-    #Scenario: Check that transacions are orderd by amount in desc order 
-    #When I click twice "amountColumnObjectId" column
-    #Then I verify that grid is sorted by amount in desc order
+
+  Scenario: Check that transacions are orderd by amount in descending order
+    When I click twice amount column
+    Then I verify that grid is sorted by amount in descending order
