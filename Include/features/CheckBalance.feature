@@ -8,8 +8,9 @@ Feature: Check balance is calculated and displayed
     When I navigate to the URL
 
   Scenario: Check that balance label is displayed
-    Then I verify the balance label is present
+    Then I verify that the element Object Repository/Page_PeeBu/label_Balance is present
+    #Then I verify that balance label has Balance label
 
     
    Scenario: Check that balance value is displayed
-    Then I verify the balance value is present
+    Then I verify that the element Object Repository/Page_PeeBu/label_BalanceValue is present
