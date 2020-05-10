@@ -79,6 +79,7 @@ class CheckClassifyTransactionsStepDef {
 			WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/Classification/Classification_Row_' + gridRowIndex),"Unclassified")
 		}
 		
+		WebUI.closeBrowser()
 	}
 
 	@When("I click in a classification row button (.*)")
@@ -92,6 +93,7 @@ class CheckClassifyTransactionsStepDef {
 
 		WebUI.verifyElementText(findTestObject(column),classificationName)
 
+		WebUI.closeBrowser()
 	}
 	
 }
