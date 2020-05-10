@@ -48,7 +48,7 @@ class CheckClassifyTransactionsStepDef {
 
 	@Then("I verify that classifications are displayed in a grid row")
 	def I_verify_that_classifications_are_displayed_in_a_grid_row() {
-		
+
 		//Food
 		WebUI.verifyElementClickable(findTestObject('Page_PeeBu/Classification/a_Unclassified_classify_food_0_btn'))
 		// Health
@@ -65,8 +65,33 @@ class CheckClassifyTransactionsStepDef {
 		WebUI.verifyElementClickable(findTestObject('Page_PeeBu/Classification/a_transportation_classify_vet_0_btn'))
 		// Others
 		WebUI.verifyElementClickable(findTestObject('Page_PeeBu/Classification/a_vet_classify_others_0_btn'))
-		
-		
+
+
 		WebUI.closeBrowser()
 	}
+	
+	@Then("I verify that transactions are unclassified")
+	def I_verify_that_transactions_are_unclassified() {
+
+		for (int gridRowIndex = 1; gridRowIndex <= 3; gridRowIndex++) {
+			WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/Classification/Classification_Row_' + gridRowIndex),"Unclassified")
+			WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/Classification/Classification_Row_' + gridRowIndex),"Unclassified")
+			WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/Classification/Classification_Row_' + gridRowIndex),"Unclassified")
+		}
+		
+	}
+
+	@When("I click in a classification row button (.*)")
+	def I_click_in_a_classification_row_button(String button) {
+
+		WebUI.click(findTestObject(button))
+	}
+
+	@Then("I verify that transaction classification was updated (.*) with (.*)")
+	def I_verify_that_transaction_classification_was_updated(String column, String classificationName) {
+
+		WebUI.verifyElementText(findTestObject(column),classificationName)
+
+	}
+	
 }
