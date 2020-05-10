@@ -35,9 +35,15 @@
       <testCaseId>Test Cases/Runner/RunCheckTransactionsGridSortableFeature</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>62c82985-8b84-4d2f-94ab-058d87429611</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Runner/RunCheckClassifyTransactionsFeature</testCaseId>
+    </testCaseLink>
+    <testCaseLink>
       <guid>721866da-8d18-4823-b775-1f0d940a0b51</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Runner/RunCheckBalanceFeature</testCaseId>
+     <testCaseId>Test Cases/Runner/RunCheckBalanceFeature</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

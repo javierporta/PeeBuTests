@@ -47,60 +47,59 @@ class CheckTransactionsGridSortableStepDef {
 	@When("I click amount column")
 	public void i_click_amount_column() {
 		WebUI.click(findTestObject('Object Repository/Page_PeeBu/span_Price'))
-		
 	}
-	
+
 	@Then("I verify that grid is sorted by amount in ascending order")
 	public void i_verify_that_grid_is_sorted_by_amount_in_ascending_order() {
 		//we are showing ascending arrow
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_PeeBu/span_Transactions_k-icon k-i-sort-asc-sm'), 0)
-		
+
 		String firstRowAmountString = WebUI.getText(findTestObject('Page_PeeBu/FirstTableRow_Amount'))
 		String secondRowAmountString = WebUI.getText(findTestObject('Page_PeeBu/SecondTableRow_Amount'))
 		String thirdRowAmountString = WebUI.getText(findTestObject('Page_PeeBu/ThirdTableRow_Amount'))
-		
-		
+
+
 		float firstRowAmount = Float.parseFloat(firstRowAmountString.replace('$', '')) //remove $ and convert to float to be comparable with others
 		float secondRowAmount = Float.parseFloat(secondRowAmountString.replace('$', '')) //remove $ and convert to float to be comparable with others
 		float thirdRowAmount = Float.parseFloat(thirdRowAmountString.replace('$', '')) //remove $ and convert to float to be comparable with others
-		
+
 		//verify first row amount is smaller than second one
 		WebUI.verifyLessThanOrEqual(firstRowAmount, secondRowAmount)
 
 		//verify second row amount is smaller than third one
 		WebUI.verifyLessThanOrEqual(secondRowAmount, thirdRowAmount)
-		
+
 		WebUI.closeBrowser()
-		
+
 	}
-	
+
 	@When("I click twice amount column")
 	public void i_click_twice_amount_column() {
 		WebUI.click(findTestObject('Object Repository/Page_PeeBu/span_Price'))
 		WebUI.click(findTestObject('Object Repository/Page_PeeBu/span_Price'))
 	}
-	
+
 	@Then("I verify that grid is sorted by amount in descending order")
 	public void i_verify_that_grid_is_sorted_by_amount_in_descending_order() {
 		//we are showing ascending arrow
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_PeeBu/span_Transactions_k-icon k-i-sort-desc-sm'), 0)
-		
+
 		String firstRowAmountString = WebUI.getText(findTestObject('Page_PeeBu/FirstTableRow_Amount'))
 		String secondRowAmountString = WebUI.getText(findTestObject('Page_PeeBu/SecondTableRow_Amount'))
 		String thirdRowAmountString = WebUI.getText(findTestObject('Page_PeeBu/ThirdTableRow_Amount'))
-		
+
 		float firstRowAmount = Float.parseFloat(firstRowAmountString.replace('$', '')) //remove $ and convert to float to be comparable with others
 		float secondRowAmount = Float.parseFloat(secondRowAmountString.replace('$', '')) //remove $ and convert to float to be comparable with others
 		float thirdRowAmount = Float.parseFloat(thirdRowAmountString.replace('$', '')) //remove $ and convert to float to be comparable with others
-		
+
 		//verify first row amount is greater than second one
 		WebUI.verifyGreaterThanOrEqual(firstRowAmount, secondRowAmount)
 
 		//verify second row amount is greater than third one
 		WebUI.verifyGreaterThanOrEqual(secondRowAmount, thirdRowAmount)
-		
+
 		WebUI.closeBrowser()
-		
-	 
+
+
 	}
 }
