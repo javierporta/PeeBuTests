@@ -39,5 +39,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Runner/RunCheckClassifyTransactionsFeature</testCaseId>
+    </testCaseLink>
+    <testCaseLink>
+      <guid>721866da-8d18-4823-b775-1f0d940a0b51</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+     <testCaseId>Test Cases/Runner/RunCheckBalanceFeature</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
