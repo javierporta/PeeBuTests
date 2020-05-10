@@ -15,9 +15,9 @@ Feature: Check transaction grid filtering
 
     Examples: 
       | columnObjectId                                             | inputObjectId                                                            | textToFilter | firstRowColumnId                                  |
-      | Object Repository/Page_PeeBu/span_Source_k-icon k-i-filter | Object Repository/Page_PeeBu/input_Contains_k-textbox FilterInput Source | source 10    | Object Repository/Page_PeeBu/FirstTableRow_Source |
+      | Object Repository/Page_PeeBu/span_Source_k-icon k-i-filter | Object Repository/Page_PeeBu/input_Contains_k-textbox FilterInput Source | cash    | Object Repository/Page_PeeBu/FirstTableRow_Source |
       | Object Repository/Page_PeeBu/span_Entity_k-icon k-i-filter | Object Repository/Page_PeeBu/input_Contains_k-textbox FilterInput Entity | Hilll Group  | Object Repository/Page_PeeBu/FirstTableRow_Entity |
-      | Object Repository/Page_PeeBu/span_Type_k-icon k-i-filter   | Object Repository/Page_PeeBu/input_Contains_k-textbox FilterInput Type   | withdrawal   | Object Repository/Page_PeeBu/FirstTableRow_Type   |
+      | Object Repository/Page_PeeBu/span_Type_k-icon k-i-filter   | Object Repository/Page_PeeBu/input_Contains_k-textbox FilterInput Type   | credit   | Object Repository/Page_PeeBu/FirstTableRow_Type   |
 
   Scenario Outline: Check that created date is filterable
     When I click Object Repository/Page_PeeBu/a_Created Date_k-grid-filter column filter

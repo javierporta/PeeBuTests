@@ -34,4 +34,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Runner/RunCheckTransactionsGridSortableFeature</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>62c82985-8b84-4d2f-94ab-058d87429611</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Runner/RunCheckClassifyTransactionsFeature</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

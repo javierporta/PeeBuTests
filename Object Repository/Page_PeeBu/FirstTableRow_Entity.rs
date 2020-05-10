@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//kendo-grid[@id='detailsKendoGrid']/div/kendo-grid-list/div/div/table/tbody/tr/td[3]</value>
+         <value>//kendo-grid[@id='detailsKendoGrid']/div/kendo-grid-list/div/div/table/tbody/tr[1]/td[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

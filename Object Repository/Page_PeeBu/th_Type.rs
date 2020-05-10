@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/following::th[1]</value>
+         <value>//kendo-grid[@id='detailsKendoGrid']/div/div/div/table/thead/tr/th[5]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,98 +17,21 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>th</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-selected</name>
+      <name>aria-hidden</name>
       <type>Main</type>
-      <value>false</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>k-header</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>columnheader</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-klass</name>
-      <type>Main</type>
-      <value>k-header</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-enable-drag</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-logical-col-index</name>
-      <type>Main</type>
-      <value>4</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-logical-row-index</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-col-span</name>
-      <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-row-span</name>
-      <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-context</name>
-      <type>Main</type>
-      <value>[object Object]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>rowspan</name>
-      <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>colspan</name>
-      <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-colindex</name>
-      <type>Main</type>
-      <value>5</value>
+      <value>k-link</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -122,35 +45,42 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;content&quot;]/app-home[1]/app-transactions-list[1]/kendo-grid[@class=&quot;k-widget k-grid&quot;]/div[@class=&quot;k-grid-aria-root&quot;]/div[@class=&quot;k-grid-header&quot;]/div[@class=&quot;k-grid-header-wrap&quot;]/table[1]/thead[1]/tr[1]/th[@class=&quot;k-header&quot;]</value>
+      <value>id(&quot;detailsKendoGrid&quot;)/div[@class=&quot;k-grid-aria-root&quot;]/div[@class=&quot;k-grid-header&quot;]/div[@class=&quot;k-grid-header-wrap&quot;]/table[1]/thead[1]/tr[1]/th[@class=&quot;k-header k-filterable&quot;]/span[@class=&quot;k-link&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/following::th[1]</value>
+      <value>//kendo-grid[@id='detailsKendoGrid']/div/div/div/table/thead/tr/th[5]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entity'])[1]/following::th[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transactions'])[1]/following::span[17]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Source'])[1]/preceding::th[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-$29,114.61'])[1]/following::span[18]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wintheiser, Kuhn and Turcotte'])[1]/preceding::th[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tap to Classify'])[1]/preceding::span[11]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wintheiser, Kuhn and Turcotte'])[1]/preceding::span[11]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -164,6 +94,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//th[5]</value>
+      <value>//th[5]/span</value>
    </webElementXpaths>
 </WebElementEntity>
