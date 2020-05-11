@@ -18,6 +18,8 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
+import org.openqa.selenium.Keys as Keys
+
 import internal.GlobalVariable
 
 import org.openqa.selenium.WebElement
@@ -75,7 +77,10 @@ class CheckTransactionsGridFilteringStepDef {
 	@When("I write the startDate {string} to filter")
 	public void i_write_the_start_date_to_filter(String startDateInput) {
 		println("startDate: " + startDateInput)
-		WebUI.setText(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_1'), startDateInput)
+		//Trick to fix Chrome issue
+		WebUI.click(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_1'))
+		WebUI.sendKeys(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_1'), Keys.chord(Keys.HOME))
+		WebUI.sendKeys(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_1'), startDateInput)
 	}
 
 	@When("I write the endDate {string} to filter")
@@ -83,12 +88,16 @@ class CheckTransactionsGridFilteringStepDef {
 		println("endDate: " + endDateInput)
 		WebUI.click(findTestObject('Page_PeeBu/Filter_CreatedDate_Comparator_2'))
 		WebUI.click(findTestObject('Page_PeeBu/KendoGridDateColumn_IsBefore_Dropdown'))
-		WebUI.setText(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_2'), endDateInput)
+		
+		//Trick to fix Chrome issue
+		WebUI.click(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_2'))
+		WebUI.sendKeys(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_2'), Keys.chord(Keys.HOME))
+		WebUI.sendKeys(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_2'), endDateInput)
 	}
 
 	@Then("I see only filtered transactions within those dates")
 	public void i_see_only_filtered_transactions_within_those_dates() {
-		//maybe I can get the text here and check if it's between dates
+		//ToDo: maybe I can get the text here and check if it's between dates
 		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/FirstTableRow_CreateDate'), 0)
 		WebUI.closeBrowser()
 	}
