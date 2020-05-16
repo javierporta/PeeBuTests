@@ -69,16 +69,14 @@ class CheckClassifyTransactionsStepDef {
 
 		WebUI.closeBrowser()
 	}
-	
+
 	@Then("I verify that transactions are unclassified")
 	def I_verify_that_transactions_are_unclassified() {
 
 		for (int gridRowIndex = 1; gridRowIndex <= 3; gridRowIndex++) {
-			WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/Classification/Classification_Row_' + gridRowIndex),"Unclassified")
-			WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/Classification/Classification_Row_' + gridRowIndex),"Unclassified")
-			WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/Classification/Classification_Row_' + gridRowIndex),"Unclassified")
+			WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/Classification/Classification_Row_' + gridRowIndex),"unclassified")
 		}
-		
+
 		WebUI.closeBrowser()
 	}
 
@@ -95,5 +93,4 @@ class CheckClassifyTransactionsStepDef {
 
 		WebUI.closeBrowser()
 	}
-	
 }
