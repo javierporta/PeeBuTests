@@ -93,16 +93,31 @@ class CheckClassifyTransactionsStepDef {
 
 		WebUI.closeBrowser()
 	}
-	
-	
+
+
 	@Then("I verify that transactions that match the pattern were autoclassified")
 	def I_verify_that_transactions_that_match_the_pattern_were_autoclassified() {
 		// IMPORTANT: Same pattern is: Entity, Source and Type and current classification is "unclassified"
+
+		//Classifying  using entertainment
+		String currentClassification = "entertainment"
 		
-		WebUI.verifyElementText(findTestObject('Page_PeeBu/Classification/td_entertainment_51'), 'entertainment')
-		
-		WebUI.verifyElementText(findTestObject('Page_PeeBu/Classification/td_entertainment_55'), 'entertainment')
-		
+		WebUI.verifyElementText(findTestObject('Page_PeeBu/Classification/td_entertainment_51'), currentClassification)
+
+		WebUI.verifyElementText(findTestObject('Page_PeeBu/Classification/td_entertainment_55'), currentClassification)
+
 		WebUI.closeBrowser()
 	}
+	
+	@Then("I verify that transaction that does not match the pattern was not autoclassified")
+	def I_verify_that_transaction_that_does_not_match_the_pattern_was_not_autoclassified() {
+		//same row, classified should be ok
+		WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/Classification/td_classification_27'), "transportation")
+		
+		// Next transactions has the same entity but different source and type, so it should not be classified
+		WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/Classification/td_classification_28'), "unclassified")
+
+		WebUI.closeBrowser()
+	}
+	
 }
