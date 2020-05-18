@@ -9,8 +9,8 @@ Feature: Check classify transactions
 
   Scenario: Check all classifications are displayed in a grid row
     Then I verify that classifications are displayed in a grid row
-    
-      Scenario: Check transactions are unclassified when initialized
+
+  Scenario: Check transactions are unclassified when initialized
     Then I verify that transactions are unclassified
 
   Scenario Outline: Check transactions can be classified
@@ -27,3 +27,11 @@ Feature: Check classify transactions
       | transportation     | Page_PeeBu/Classification/a_entertainment_classify_transportation_0_btn | Object Repository/Page_PeeBu/Classification/Classification_Row_1 |
       | vet                | Page_PeeBu/Classification/a_transportation_classify_vet_0_btn           | Object Repository/Page_PeeBu/Classification/Classification_Row_1 |
       | others             | Page_PeeBu/Classification/a_vet_classify_others_0_btn                   | Object Repository/Page_PeeBu/Classification/Classification_Row_1 |
+
+  Scenario: Check transactions are autoclassified when possible
+    When I click in a classification row button Page_PeeBu/Classification/svg_entertainment_50
+    Then I verify that transactions that match the pattern were autoclassified
+
+  Scenario: Check transactions are not autoclassified when not matching all patterns
+    When I click in a classification row button Page_PeeBu/Classification/svg_transportation_27
+    Then I verify that transaction that does not match the pattern was not autoclassified
