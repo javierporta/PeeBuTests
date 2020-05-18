@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>svg_unclassified_svg-inline--fa fa-film fa-_e7ed6b</name>
+   <name>svg_entertainment_50</name>
    <tag></tag>
    <elementGuidId>e6a93360-c98b-44a9-baeb-1bb7cd5f2939</elementGuidId>
    <selectorCollection>

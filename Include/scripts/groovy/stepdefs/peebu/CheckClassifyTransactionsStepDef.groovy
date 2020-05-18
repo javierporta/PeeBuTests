@@ -93,4 +93,16 @@ class CheckClassifyTransactionsStepDef {
 
 		WebUI.closeBrowser()
 	}
+	
+	
+	@Then("I verify that transactions that match the pattern were autoclassified")
+	def I_verify_that_transactions_that_match_the_pattern_were_autoclassified() {
+		// IMPORTANT: Same pattern is: Entity, Source and Type and current classification is "unclassified"
+		
+		WebUI.verifyElementText(findTestObject('Page_PeeBu/Classification/td_entertainment_51'), 'entertainment')
+		
+		WebUI.verifyElementText(findTestObject('Page_PeeBu/Classification/td_entertainment_55'), 'entertainment')
+		
+		WebUI.closeBrowser()
+	}
 }

@@ -20,7 +20,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:4200/')
 
-WebUI.click(findTestObject('Page_PeeBu/Classification/svg_unclassified_svg-inline--fa fa-film fa-_e7ed6b'))
+WebUI.click(findTestObject('Page_PeeBu/Classification/svg_entertainment_50'))
 
 WebUI.verifyElementText(findTestObject('Page_PeeBu/Classification/td_entertainment_51'), 'entertainment')
 
@@ -28,5 +28,4 @@ WebUI.verifyElementText(findTestObject('Page_PeeBu/Classification/td_entertainme
 
 WebUI.closeBrowser()
 
-WebUI.closeBrowser()
 
