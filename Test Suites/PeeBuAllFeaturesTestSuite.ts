@@ -39,11 +39,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Runner/RunCheckClassifyTransactionsFeature</testCaseId>
-    </testCaseLink>
-    <testCaseLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>721866da-8d18-4823-b775-1f0d940a0b51</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-     <testCaseId>Test Cases/Runner/RunCheckBalanceFeature</testCaseId>
+      <testCaseId>Test Cases/Runner/RunCheckBalanceFeature</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2f40c443-a983-4377-aed7-f6cb5df3e69d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Runner/RunCheckTransactionChartFeature</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
