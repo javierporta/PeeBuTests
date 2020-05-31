@@ -58,14 +58,18 @@ class CheckLandingPageLoadedStepDef {
 
 	@Then("I verify that the header {string} is present")
 	public void i_verify_that_the_header_is_present(String string) {
-		//To Do: Use string
 		WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/span_Welcome to PeeBu'), 'Welcome to PeeBu')
 	}
 
 	@Then("I verify that the element (.*) is present")
 	public void i_verify_that_the_element_headerId_is_present(String objectRepoId) {
-		println("objectRepoId: " + objectRepoId);
 		WebUI.verifyElementPresent(findTestObject(objectRepoId), 0)
+		WebUI.closeBrowser()
+	}
+	
+	@Then("I verify that the element (.*) is not present")
+	public void i_verify_that_the_element_headerId_is_not_present(String objectRepoId) {
+		WebUI.verifyElementNotPresent(findTestObject(objectRepoId), 0)
 		WebUI.closeBrowser()
 	}
 }
