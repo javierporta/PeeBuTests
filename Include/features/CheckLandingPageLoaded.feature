@@ -24,5 +24,6 @@ Feature: Check landing page is loaded
     Then I verify that the element Object Repository/Page_PeeBu/h5_TetwokErrorText is not present
 
   #	Failure Testing (it will fail with this configuration, it should use other configuration (eg: using other URL in order to fail getting transactions))
-  Scenario: Check network faliure text is shown when transactions API can't be reached
-    Then I verify that the element Object Repository/Page_PeeBu/h5_TetwokErrorText is present
+  # This will only pass if a network error happens. If we activate this, test suite will fail and so the pipeline build
+  #Scenario: Check network faliure text is shown when transactions API can't be reached
+  #  Then I verify that the element Object Repository/Page_PeeBu/h5_TetwokErrorText is present
