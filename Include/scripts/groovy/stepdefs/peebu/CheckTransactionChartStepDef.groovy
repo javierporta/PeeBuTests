@@ -53,13 +53,14 @@ class CheckTransactionChartStepDef {
 
 	@Then("I verify that expenses chart is displayed")
 	def I_verify_that_expenses_chart_is_displayed() {
-		WebUI.click(findTestObject('Object Repository/Page_PeeBu/text_Top 5 Expenses of Last Month - March 2020'))
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_PeeBu/text_Top 5 Expenses of Last Month - March 2020'),0)
 		WebUI.closeBrowser()
 	}
 	
 	@Then("I verify that incomes chart is displayed")
 	def I_verify_that_incomes_chart_is_displayed() {
-		WebUI.click(findTestObject('Object Repository/Page_PeeBu/text_Top 3 Incomes of Last Month - March 2020'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Page_PeeBu/text_Top 3 Incomes of Last Month - March 2020'), 3)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_PeeBu/text_Top 3 Incomes of Last Month - March 2020'), 0)
 		WebUI.closeBrowser()
 	}
 }
