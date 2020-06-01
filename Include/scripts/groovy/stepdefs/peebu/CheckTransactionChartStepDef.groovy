@@ -59,6 +59,7 @@ class CheckTransactionChartStepDef {
 	
 	@Then("I verify that incomes chart is displayed")
 	def I_verify_that_incomes_chart_is_displayed() {
+		WebUI.scrollToElement(findTestObject('Object Repository/Page_PeeBu/text_Top 3 Incomes of Last Month - March 2020'), 3)
 		WebUI.click(findTestObject('Object Repository/Page_PeeBu/text_Top 3 Incomes of Last Month - March 2020'))
 		WebUI.closeBrowser()
 	}
