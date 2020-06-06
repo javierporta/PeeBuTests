@@ -88,7 +88,7 @@ class CheckTransactionsGridFilteringStepDef {
 		println("endDate: " + endDateInput)
 		WebUI.click(findTestObject('Page_PeeBu/Filter_CreatedDate_Comparator_2'))
 		WebUI.click(findTestObject('Page_PeeBu/KendoGridDateColumn_IsBefore_Dropdown'))
-		
+
 		//Trick to fix Chrome issue
 		WebUI.click(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_2'))
 		WebUI.sendKeys(findTestObject('Page_PeeBu/KendoGridDateFilter_Input_2'), Keys.chord(Keys.HOME))

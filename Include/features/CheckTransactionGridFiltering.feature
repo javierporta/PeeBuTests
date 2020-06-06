@@ -28,12 +28,12 @@ Feature: Check transaction grid filtering
 
     Examples: 
       | startDate      | endDate        |
-      # Sep 2019
-      | "010920190000" | "011020190000" |
-      # Aug 2019
-      | "010820190000" | "010920190000" |
-      # Jun 2019
-      | "010520190000" | "010620190000" |
+      # Oct 2019
+      | "011020190000" | "011120190000" |
+      # May 2020
+      | "010520200000" | "010620200000" |
+      # Jun 2020
+      | "010620200000" | "010720200000" |
 
   Scenario Outline: Check that amount is filterable
     When I click Object Repository/Page_PeeBu/span_Price_k-icon k-i-filter column filter
