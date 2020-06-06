@@ -13,3 +13,6 @@ Feature: Check transaction chart
 
   Scenario: Check that income chart is displayed
     Then I verify that incomes chart is displayed
+
+  Scenario: Check that latest transaction timeline is displayed
+    Then I verify that latest transaction timeline is displayed

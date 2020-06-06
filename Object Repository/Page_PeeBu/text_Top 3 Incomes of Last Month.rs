@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>text_Top 3 Incomes of Last Month - March 2020</name>
+   <name>text_Top 3 Incomes of Last Month</name>
    <tag></tag>
    <elementGuidId>43d4a48b-6ef6-4cb5-8014-893b4f1ef878</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Top 3 Incomes of Last Month - March 2020']/parent::*</value>
+         <value>//div[@id='topIncomeMonthlyChart']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
