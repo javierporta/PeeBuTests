@@ -22,9 +22,9 @@ WebUI.navigateToUrl('http://localhost:4200/')
 
 WebUI.click(findTestObject('Page_PeeBu/button_Show Chart'))
 
-WebUI.click(findTestObject('Object Repository/Page_PeeBu/text_Top 5 Expenses of Last Month - March 2020'))
+WebUI.click(findTestObject('Page_PeeBu/text_Top 5 Expenses of Last Month'))
 
-WebUI.click(findTestObject('Object Repository/Page_PeeBu/text_Top 3 Incomes of Last Month - March 2020'))
+WebUI.click(findTestObject('Page_PeeBu/text_Top 3 Incomes of Last Month'))
 
 WebUI.closeBrowser()
 
