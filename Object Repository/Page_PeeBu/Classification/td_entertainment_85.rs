@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_entertainment_51</name>
+   <name>td_entertainment_85</name>
    <tag></tag>
-   <elementGuidId>b9c1ab33-077a-41f6-8776-f706c017e1c9</elementGuidId>
+   <elementGuidId>c9ac41b1-9c6b-44da-b925-5b023caf9d74</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//kendo-grid[@id='detailsKendoGrid']/div/kendo-grid-list/div/div/table/tbody/tr[51]/td[7]</value>
+         <value>//kendo-grid[@id='detailsKendoGrid']/div/kendo-grid-list/div/div/table/tbody/tr[92]/td[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
