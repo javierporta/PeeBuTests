@@ -20,11 +20,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:4200/')
 
-WebUI.click(findTestObject('Page_PeeBu/Classification/svg_entertainment_50'))
+WebUI.click(findTestObject('Page_PeeBu/Classification/svg_entertainment_77'))
 
-WebUI.verifyElementText(findTestObject('Page_PeeBu/Classification/td_entertainment_51'), 'entertainment')
+WebUI.verifyElementText(findTestObject('Page_PeeBu/Classification/td_entertainment_92'), 'entertainment')
 
-WebUI.verifyElementText(findTestObject('Page_PeeBu/Classification/td_entertainment_55'), 'entertainment')
+WebUI.verifyElementText(findTestObject('Page_PeeBu/Classification/td_entertainment_85'), 'entertainment')
 
 WebUI.closeBrowser()
 

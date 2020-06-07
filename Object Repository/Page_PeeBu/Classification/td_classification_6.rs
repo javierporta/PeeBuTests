@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_classification_27</name>
+   <name>td_classification_6</name>
    <tag></tag>
-   <elementGuidId>ac4c32e1-430e-489d-a8e2-965af951e890</elementGuidId>
+   <elementGuidId>8bccf5ec-a560-4eaa-8fc9-da6fd3e682d6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//kendo-grid[@id='detailsKendoGrid']/div/kendo-grid-list/div/div/table/tbody/tr[27]/td[7]</value>
+         <value>//kendo-grid[@id='detailsKendoGrid']/div/kendo-grid-list/div/div/table/tbody/tr[41]/td[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -29,9 +29,9 @@ Feature: Check classify transactions
       | others             | Page_PeeBu/Classification/a_vet_classify_others_0_btn                   | Object Repository/Page_PeeBu/Classification/Classification_Row_1 |
 
   Scenario: Check transactions are autoclassified when possible
-    When I click in a classification row button Page_PeeBu/Classification/svg_entertainment_50
+    When I click in a classification row button Page_PeeBu/Classification/svg_entertainment_77
     Then I verify that transactions that match the pattern were autoclassified
 
   Scenario: Check transactions are not autoclassified when not matching all patterns
-    When I click in a classification row button Page_PeeBu/Classification/svg_transportation_27
+    When I click in a classification row button Page_PeeBu/Classification/svg_transportation_79
     Then I verify that transaction that does not match the pattern was not autoclassified

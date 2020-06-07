@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>svg_entertainment_50</name>
+   <name>svg_transportation_79</name>
    <tag></tag>
-   <elementGuidId>e6a93360-c98b-44a9-baeb-1bb7cd5f2939</elementGuidId>
+   <elementGuidId>f8c39c87-be9c-4097-81bb-7f56ca459d04</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='unclassified'])[50]/following::*[name()='svg'][5]</value>
+         <value>//a[@id='classify_transportation_79_btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
