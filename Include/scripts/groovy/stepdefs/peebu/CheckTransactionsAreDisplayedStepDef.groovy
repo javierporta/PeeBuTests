@@ -50,7 +50,7 @@ class CheckTransactionsAreDisplayedStepDef {
 	 */
 	@Then("I verify that the transactions grid is present")
 	public void i_verify_that_the_transactions_grid_is_present() {
-		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/kendo-grid_IdCreated DateEntityPriceTypeSou_7f689a'))
+		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/kendo-grid_IdCreated DateEntityPriceTypeSou_7f689a'),0)
 	}
 
 	@Then("I verify that the column (.*) is in the grid")
@@ -63,7 +63,7 @@ class CheckTransactionsAreDisplayedStepDef {
 	@Then("I verify that transactions are being displayed in the grid")
 	public void i_verify_that_transactions_are_being_displayed_in_the_grid() {
 		// Warning: is just checking id of first row. ToDo: more checks here
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_PeeBu/td_1'))
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_PeeBu/td_1'),0)
 		WebUI.closeBrowser()
 	}
 }
