@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Source'])[1]/following::td[1]</value>
+         <value>//kendo-grid[@id='detailsKendoGrid']/div/kendo-grid-list/div/div/table/tbody/tr[1]/td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
