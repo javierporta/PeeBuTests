@@ -42,17 +42,33 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import org.openqa.selenium.Keys as Keys
 
 class CheckTransactionUnclassifiedStepDef {
 
 	@Then("I verify that an unclassified transaction is marked as unclassifed")
 	def I_verify_that_an_unclassified_transaction_is_marked_as_unclassifed() {
-	
+
+		def trClass = WebUI.getAttribute(findTestObject('Object Repository/Page_PeeBu/Table_Tr_1'), 'class')
+		println("asd1")
+		println(trClass)
+		WebUI.verifyNotMatch(trClass, 'highlighted', false)
+		
+		WebUI.closeBrowser()
 	}
 
 	@Then("I verify that a classified transaction is marked as classified")
 	def I_verify_that_a_classified_transaction_is_marked_as_classified() {
-	
+
+		def trClass = WebUI.getAttribute(findTestObject('Object Repository/Page_PeeBu/Table_Tr_1'), 'class')
+		println("asd2")
+		println(trClass)
+		WebUI.verifyMatch(trClass, 'highlighted', false)
+
+		WebUI.closeBrowser()
 	}
 }
