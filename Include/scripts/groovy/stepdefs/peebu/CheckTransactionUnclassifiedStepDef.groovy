@@ -45,21 +45,14 @@ import cucumber.api.java.en.When
 
 
 class CheckTransactionUnclassifiedStepDef {
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
-	@Given("I want to write a step with (.*)")
-	def I_want_to_write_a_step_with_name(String name) {
-		println name
+
+	@Then("I verify that an unclassified transaction is marked as unclassifed")
+	def I_verify_that_an_unclassified_transaction_is_marked_as_unclassifed() {
+	
 	}
 
-	@When("I check for the (\\d+) in step")
-	def I_check_for_the_value_in_step(int value) {
-		println value
-	}
-
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
+	@Then("I verify that a classified transaction is marked as classified")
+	def I_verify_that_a_classified_transaction_is_marked_as_classified() {
+	
 	}
 }
