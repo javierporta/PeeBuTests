@@ -52,4 +52,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Runner/RunCheckTransactionChartFeature</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7b3fedd7-855f-4dbb-bc55-1fcca13c7124</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Runner/RunCheckTransactionUnclassified</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
