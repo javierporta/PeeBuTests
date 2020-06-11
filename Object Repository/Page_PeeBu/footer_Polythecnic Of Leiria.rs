@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Chart'])[1]/following::footer[1]</value>
+         <value>//span[@id='footerPolyId']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
