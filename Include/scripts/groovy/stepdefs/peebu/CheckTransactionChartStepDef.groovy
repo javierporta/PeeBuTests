@@ -63,6 +63,12 @@ class CheckTransactionChartStepDef {
 		WebUI.closeBrowser()
 	}
 	
+	@Then("I verify that classification chart is displayed")
+	def I_verify_that_classification_chart_is_displayed() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_PeeBu/ClassificationsChart'), 0)
+		WebUI.closeBrowser()
+	}
+
 	@Then("I verify that latest transaction timeline is displayed")
 	def I_verify_that_latest_transaction_timeline_is_displayed() {
 		WebUI.scrollToElement(findTestObject('Object Repository/Page_PeeBu/div_LatestTransactionsSection'), 3)
@@ -70,4 +76,6 @@ class CheckTransactionChartStepDef {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_PeeBu/h4_Latest Transactions'), 0)
 		WebUI.closeBrowser()
 	}
+	
+	
 }

@@ -45,12 +45,9 @@ import cucumber.api.java.en.When
 
 
 class CheckBalanceStepDef {
-	
+
 	@Then("I verify that balance label is correct")
 	def I_verify_that_balance_label_has_Balance_label () {
 		WebUI.verifyElementText(findTestObject('Object Repository/Page_PeeBu/label_Balance'), 'Balance:')
-		
 	}
-
-
 }
