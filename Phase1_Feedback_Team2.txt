@@ -5,9 +5,11 @@
 
 - Scenarios - 0
 >> how will you assess that all the transactions are presented on the list?
+JAVIER: To know the number of transactions we should do some API testing too, get the number od the transaction that comes from the API and check that numbers with the UI. To know transactions where retrieved and being shown, I'm checking if there is a tr in the table with the values expected. If the list of transaction would be always 100, I'd be able to check "all" transactions are presented.
 >> what happens when the balance does not exist?
+JAVIER: I'm calculating the balance, according current transactions. Balance always exists as long as there are transactions. I'm checking balance labels in CheckBalance.feature.
 >> and if the API Web Service is not available?
-
+JAVIER: There is a new test that check that a title is displayed saying there was a network issue. This test obviusly fails with current configuration so it was commented.
 - Test Setup and Teardown - 0
 
 
@@ -18,6 +20,7 @@
 
 - Scenarios - 1
 >> what appears in the column if the entry does not have a value specified for that column?
+JAVIER: This feature was not implemented since all transaction data is presented in main page. I was expecting to receive more data regarding transactions.
 
 - Test Setup and Teardown - 0
 
@@ -29,7 +32,9 @@
 
 - Scenarios - 1
 >> I can only classify one row at a time?
+JAVIER: Yes. But now there is also the autoclassify feature. If some transactions match the pattern of current classified transaction it will also be automatically classified. Pattern is: Same entity, same source, same type and "unclassified" classification.
 >> Can a classification be updated? Reset?
+JAVIER: Yes, it can be updated as much as the user wants. However, it can't be reseted, this is to push users to classify transactions. In the case classifications for current transaction does not match with any, user can choose "other".
 
 - Test Setup and Teardown - 0
 
@@ -41,6 +46,7 @@
 
 - Scenarios - 1
 >> is there an option to check (get a list of) all the transactions that are not classified
+JAVIER: Yes, there is. Simply by filtering classification using "unclassified" text, and then you can have a big picture of that just seeing the classifications chart.
 
 - Test Setup and Teardown - 0
 
@@ -52,7 +58,9 @@
 
 - Scenarios - 5
 >> how can I filter by classification?
+JAVIER: Click in column table header, write text, customize filters and click filter. I'm testing that functionality in CheckTransactionGridFiltering. Why I'm testing kendo filtering if it was implemented by Kendo? Because transactions list provided is a json where all fields are string. PeeBu app is converting some fileds to Date or Numbers. Sorting and filtering depends on type of data and I'm ensuring that.
 >> what happens if I  don't have any transaction? how will the grouping or filtering work?
+JAVIER:  Grouping is not available. That is managed by Kendo component, that is why is not tested.
 
 - Test Setup and Teardown - 0
 
@@ -64,8 +72,11 @@
 
 - Scenarios - 0
 >> where are the tables?
+JAVIER: Under the Show chart bottom, already added more tests to check charts by id.
 >> where is the timeline for the transactions?
+JAVIER: At the bottom, I added a test to check latest transaction table by id.
 >> what happens when there is no data?
+JAVIER: No charts are displayed. (A better option would be to disable show charts button)
 
 - Test Setup and Teardown - 0
 
@@ -73,8 +84,11 @@
 
 !!!!! Gherkin Usage
 No usage of the "Background" keyword
+JAVIER: Added background keyword
 Not enough usage of "Scenario Outline+Examples"
+JAVIER: Added more scenario outline examples
 
 ###################
 
 Pipeline: In the "Run automated tests" and "Perform manual testing" jobs, the post-build actions should be of type "Build other projects (manual step)"
+JAVIER: Changed Ok.
