@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::span[1]</value>
+         <value>//span[@id='appTitleId']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
