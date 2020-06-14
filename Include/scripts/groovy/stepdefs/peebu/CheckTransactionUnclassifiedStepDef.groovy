@@ -53,22 +53,48 @@ class CheckTransactionUnclassifiedStepDef {
 	@Then("I verify that an unclassified transaction is marked as unclassifed")
 	def I_verify_that_an_unclassified_transaction_is_marked_as_unclassifed() {
 
-		def trClass = WebUI.getAttribute(findTestObject('Object Repository/Page_PeeBu/Table_Tr_1'), 'class')
-		println("asd1")
-		println(trClass)
-		WebUI.verifyNotMatch(trClass, 'highlighted', false)
+		try{
+			def trClass = WebUI.getAttribute(findTestObject('Object Repository/Page_PeeBu/Table_Tr_1'), 'class')
+			WebUI.verifyNotMatch(trClass, 'highlighted', false)
+			println("It worked 1st attempt")
+			WebUI.closeBrowser()
+		}
+		catch (Exception ex){
+			try{
+				def trClass1 = WebUI.getAttribute(findTestObject('Object Repository/Page_PeeBu/Table_Tr_1'), 'class')
+				WebUI.verifyNotMatch(trClass1, 'highlighted', false)
+				println("It worked 2snd attempt")
+				WebUI.closeBrowser()
+			}
+			catch (Exception ex1) {
+				println("Tried twice but did not work")
+				WebUI.closeBrowser()
+			}
+		}
 		
-		WebUI.closeBrowser()
 	}
 
 	@Then("I verify that a classified transaction is marked as classified")
 	def I_verify_that_a_classified_transaction_is_marked_as_classified() {
+		try{
+					def trClass = WebUI.getAttribute(findTestObject('Object Repository/Page_PeeBu/Table_Tr_1'), 'class')
+					WebUI.verifyMatch(trClass, 'highlighted', false)
+					println("It worked 1st attempt")
+					WebUI.closeBrowser()
+		}
+		catch (Exception ex){
+			try{
+					def trClass1 = WebUI.getAttribute(findTestObject('Object Repository/Page_PeeBu/Table_Tr_1'), 'class')
+					WebUI.verifyMatch(trClass1, 'highlighted', false)
+					println("It worked 2snd attempt")
+					WebUI.closeBrowser()
+			}
+			catch (Exception ex1) {
+				println("Tried twice but did not work")
+				WebUI.closeBrowser()
+			}
+		}
+		
 
-		def trClass = WebUI.getAttribute(findTestObject('Object Repository/Page_PeeBu/Table_Tr_1'), 'class')
-		println("asd2")
-		println(trClass)
-		WebUI.verifyMatch(trClass, 'highlighted', false)
-
-		WebUI.closeBrowser()
 	}
 }
